@@ -1,0 +1,45 @@
+---
+title: "Cidade não-visual: um áudio-guia pelo centro de São Paulo"
+date: 2021-01-01
+year: 2021
+type: artigo
+tags: [artigo, urbano, editorial]
+venue: "Archdaily Brasil"
+externalUrl: "https://www.archdaily.com.br/br/966557/cidade-nao-visual-um-audioguia-pelo-centro-de-sao-paulo"
+draft: false
+image: "/images/trabalhos/cidade-nao-visual-audioguia.jpg"
+---
+
+*A Cidade não-visual: um audioguia pelo centro de São Paulo* é um ensaio de projeto auditivo e sonoro sobre as relações urbanas e seus eventos. Uma proposta que possui como centralidade as formas de percepção da cidade por pessoas portadoras de deficiências visuais onde se procura tensionar e dialogar com suas vivências no meio urbano a fim de potencializar seus respectivos direitos à cidade, sua autonomia e o seu exercício enquanto cidadãos. Parte-se como espacialidade nesta análise de caso a região onde foi implementado o projeto das ruas abertas para pedestre no centro novo de São Paulo (República).
+
+Quando pensamos em cidades acessíveis pensamos em cidades que não dificultem o caminhar e o deslocamento de pessoas portadoras de deficiências. Cidades que são agradáveis e convidativas, menos opressivas. Que garantem, antes de mais nada, o igual acesso aos recursos e infraestruturas que a mesma tem a oferecer.
+
+Segundo o censo demográfico do IBGE do ano de 2010, em torno de 36 milhões de brasileiros são portadores de deficiência visual, ou seja, em torno de 17% da população do Brasil possui algum grau de deficiência visual — seja ele desde os níveis mais leves, como o uso de óculos e lentes, até o cego por completo.
+
+Analisando tais dados e suas percepções dentro da cidade, as principais diferenças entre cegos e videntes estariam na sua capacidade de locomoção e compreensão de espaços. Ou seja, em cidade marcada por construções históricas, sociais e econômicas *visocêntricas*, pessoas portadoras de deficiência visual se aglomeram em suas bordas, circunscritas por limitações na locomoção e por exclusões sistêmicas.
+
+Algumas das dificuldades relatadas pelos próprios portadores de deficiências visuais ao se locomover na cidade, tais quais buracos nas calçadas e má sinalização para saída de automóveis de garagens não estão previstas em lei. Porém, mesmo aquelas previstas, como o piso tátil e o semáforo sonoro são tão negligenciados quanto, e dificilmente cumpridos e implementados no tecido urbano.
+
+Dentro desta lógica, a cidade de São Paulo é considerada a cidade mais acessível do Brasil e a Av. Paulista o maior exemplo dessa suposta acessibilidade. Porém, ao analisarmos de fato, mesmo nessa avenida, diversos são os conflitos e barreiras urbanas existentes, seja pela presença de orelhões em pontos de locomoção destinados aos portadores de deficiência; seja em pisos táteis que começam e acabam sem lógica pré estabelecida.
+
+O presente trabalho teve seu início no segundo semestre de 2018, em uma investigação acerca da presença do tato na cidade, culminando em um estudo sobre as vivências das pessoas portadoras de deficiências visuais. Dessa forma, para que essa pesquisa fosse feita de maneira sincera, entramos em contato com a Fundação Dorina Nowill para Cegos, onde pudemos trabalhar diretamente com o grupo de voluntários, realizando com eles alguns encontros no sentido de provocar uma discussão e aproximação ao tema. A proposta que deu continuidade foi a de aprofundar esse estudo de uma forma mais prática, que resultasse em um produto que pudesse servir ao grupo de voluntários e a outras pessoas portadoras de deficiências visuais.
+
+Dessa forma, compreendemos, ao longo do processo, que para chegar à um produto legítimo — que fizesse sentido e fosse de interesse ao grupo — teríamos que realizar uma aproximação mais pessoal e direta com os voluntários, de modo a conhecê-los de fato — participando de suas experiências na cidade, identificando seus desafios e potencialidades. Para isso, propusemos três encontros ao longo do primeiro semestre de 2019: o primeiro, uma dinâmica na própria Fundação Dorina; o segundo, uma visita à exposição Sopro, de Ernesto Neto, na Pinacoteca; e o terceiro, um passeio sonoro guiado pelo bairro do Bom Retiro, produzido pela Casa do Povo.
+
+O primeiro encontro foi uma dinâmica que nomeamos de *Inversão*. Nela, propusemos que os voluntários nos vendassem e nos mostrassem as dependências da Fundação Dorina, causando um estranhamento e uma subversão da lógica com a qual, geralmente, as pessoas portadoras de deficiência se relacionam com as pessoas videntes; deixando o controle e autonomia totalmente com os voluntários.
+
+Já no segundo encontro, nos sentimos preparadas para de fato enfrentar o espaço público. Realizamos o percurso de metrô desde a estação Santa Cruz até a estação da Luz, para chegarmos a pé à Pinacoteca. O percurso por si só já se mostrou uma grande experiência, uma vez que pudemos experimentar na prática as dificuldades enfrentadas pelas pessoas portadoras de deficiências visuais na cidade: (1) pisos táteis de má qualidade quando presentes, (2) os grandes desníveis e buracos nas calçadas, (3) a falta de semáforos com acessibilidade, (4) além do despreparo da sociedade para o diálogo com pessoas portadoras de deficiências.
+
+A proposta de visitar a Pinacoteca ocorreu especificamente em função da exposição de Ernesto Neto *[Sopro]* que possui uma temática sinestésica, propondo diversas estações que aguçam os sentidos de diferentes formas. Idealmente, pensamos que a exposição seria compreendida pelos voluntários, uma vez que não possuía um enfoque predominantemente no sentido da visão. Em todo caso, percebemos que tanto a Pinacoteca, quanto a exposição, não haviam sido pensadas para deficientes visuais, e, por isso, a experiência dos mesmos, muitas das vezes, sofreu algumas interferências, seja pela dificuldade dos mediadores com um grupo de pessoas portadoras de deficiências visuais, seja pela não interatividade total dos dispositivos pertencentes à exposição.
+
+No terceiro e último encontro, tivemos a ideia de fazer o passeio sonoro guiado pelo bairro do Bom Retiro, realizado pela Casa do Povo. Assim, justamente neste último encontro que entendemos de fato o que seria um produto com grande significado para os voluntários. O audioguia da Casa do Povo funciona de uma forma extremamente didática: com indicações precisas acerca dos locais visitados. O percurso propõe um passeio por lugares não convencionais do Bom Retiro, apresentando jóias escondidas da gastronomia, uma vila operária esquecida, lojas judaicas e comércios coreanos. Além disso, são entrevistados diversos moradores da região, que contam suas memórias afetivas para com aqueles lugares, tornando tudo mais pessoal. O passeio foi extremamente instigante e elogiado pelos voluntários, ao qual nos relataram um fato de grande importância: não há a possibilidade, muita das vezes, para que pessoas com deficiências visuais enxergarem os usos que a cidade propõe; dessa forma, se torna muito difícil conhecer novos lugares, limitando sua vivência sempre aos mesmos espaços. Nesse sentido, o audioguia serviu como um ampliador da experiência dos voluntários que, se só estivessem de passagem pelo Bom Retiro, muito dificilmente teriam identificado os locais visitados, tendo estes, provavelmente, passado despercebidos.
+
+Os voluntários, então, expressaram um grande desejo de que houvesse algo do tipo sobre a região do centro de São Paulo, da qual possuem enorme interesse. Foi dessa maneira então que demos início ao processo de produção de *A Cidade Não Visual — um audioguia pelo centro de São Paulo,* a partir das nossas vivências e experiências como estudantes de arquitetura nesse local.
+
+*A Cidade não-visual: um audioguia pelo centro de São Paulo* propõe um passeio pelo centro novo (região da República) a partir da perspectiva afetiva de 5 estudantes de Arquitetura e Urbanismo da Escola da Cidade e com um direcionamento específico para pessoas portadoras de deficiências visuais. O objetivo é tencionar a percepção e experiência com a cidade, mirando subverter algumas das lógicas impostas pelo ritmo funcional e frenético das grandes metrópoles. Propomos a compreensão dos espaços de forma não visual, mas sim, experimental e sensorial. Ao mesmo tempo, o audioguia se torna interessante também para pessoas que não possuem deficiências visuais.
+
+O percurso acontece predominantemente na área onde foi implantado o projeto de calçadões do centro nos anos 70, no qual o pedestre tem preferência na ocupação da rua, dividindo-a com comércio de ambulantes e camelôs e o mobiliário urbano. A duração do percurso é de mais ou menos 60 minutos, tendo seu início na Praça da República e terminando na Praça Dom José de Barros, na Biblioteca Mário de Andrade. O audioguia está disponível no Soundcloud.
+
+Texto: **Anita Solitrenick**, **Luisa Moreno**, **Maria Clara Calixto de Andrade**, **Maristella Pinheiro** e **Tamara Crespin**.
+
+[Ouça o audioguia aqui](https://soundcloud.com/user-825842397/sets/audioguia-sao-paulo-cidade-nao-visual?utm_medium=website&utm_source=archdaily.com.br)

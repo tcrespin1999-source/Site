@@ -1,0 +1,284 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import GraphView from "../../components/GraphView.astro";
+import TagList from "../../components/TagList.astro";
+import RelatedItems from "../../components/RelatedItems.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+    const trabalhos = await getCollection("trabalhos");
+    return trabalhos
+        .filter((entry) => !entry.data.externalOnly)
+        .map((entry) => ({
+            params: { slug: entry.id.replace(/\.mdx?$/, "") },
+            props: { entry },
+        }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const cleanSlug = entry.id.replace(/\.mdx?$/, "");
+
+const dateFormatted = entry.data.date
+    ? entry.data.date.toLocaleDateString("pt-BR", { year: "numeric" })
+    : String(entry.data.year ?? "");
+
+// Detectar se o conteúdo é substancial ou apenas placeholder
+const rawBody = entry.body?.trim() || "";
+const isStub = rawBody.length < 100 || rawBody.includes("<!-- TODO");
+const hasExternalUrl = !!entry.data.externalUrl;
+
+// ─── Helpers para embeds ───
+function getVideoEmbedSrc(url: string): string {
+    // Vimeo: vimeo.com/123456789
+    const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
+    if (vimeoMatch) {
+        return `https://player.vimeo.com/video/${vimeoMatch[1]}`;
+    }
+    // YouTube: youtube.com/watch?v=ID ou youtu.be/ID
+    const ytMatch = url.match(/[?&]v=([^&]+)/) || url.match(/youtu\.be\/([^?]+)/);
+    const id = ytMatch ? ytMatch[1] : "";
+    const tMatch = url.match(/[?&]t=(\d+)/);
+    const start = tMatch ? `?start=${tMatch[1]}` : "";
+    return `https://www.youtube.com/embed/${id}${start}`;
+}
+
+function toDrivePreviewUrl(url: string): string {
+    return url.replace(/\/view(\?.*)?$/, "/preview");
+}
+---
+
+<Layout
+    title={`${entry.data.title} — Tamara Crespin`}
+    description={entry.data.description}
+>
+    <div
+        class="flex flex-col lg:flex-row px-4 sm:px-8 md:px-16 py-12 md:py-20 max-w-6xl mx-auto gap-12 lg:gap-16"
+    >
+        <!-- ─── Conteúdo principal ─── -->
+        <article class="flex-1 min-w-0">
+            <header class="mb-10">
+                <h1
+                    class="text-2xl md:text-3xl leading-tight mb-4"
+                    style={`font-family: var(--font-display); color: var(--color-ink);`}
+                >
+                    {entry.data.title}
+                </h1>
+
+                <div
+                    class="flex flex-wrap items-center gap-2 text-sm mb-4"
+                    style={`color: var(--color-ink); font-family: var(--font-body);`}
+                >
+                    <time datetime={entry.data.date?.toISOString() ?? `${entry.data.year ?? ""}-01-01`}>
+                        {dateFormatted}
+                    </time>
+                    {
+                        entry.data.venue && (
+                            <>
+                                <span>·</span>
+                                <span>{entry.data.venue}</span>
+                            </>
+                        )
+                    }
+                    {
+                        entry.data.lang && entry.data.lang !== "pt" && (
+                            <>
+                                <span>·</span>
+                                <span class="uppercase text-xs tracking-wider">
+                                    {entry.data.lang}
+                                </span>
+                            </>
+                        )
+                    }
+                </div>
+
+                {
+                    entry.data.collaborators && entry.data.collaborators.length > 0 && (
+                        <p
+                            class="text-sm mb-4"
+                            style={`color: var(--color-ink-muted);`}
+                        >
+                            Com {entry.data.collaborators.join(", ")}
+                        </p>
+                    )
+                }
+
+                <TagList tags={entry.data.tags} />
+            </header>
+
+            {/* ─── Vídeo embed (antes do conteúdo, exceto quando videoLast) ─── */}
+            {entry.data.video && !entry.data.videoLast && (
+                <div
+                    class="mb-10"
+                    style={`border: 1px solid var(--color-border);`}
+                >
+                    <iframe
+                        src={getVideoEmbedSrc(entry.data.video)}
+                        title={entry.data.title}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="width: 100%; aspect-ratio: 16/9; display: block; border: none;"
+                    />
+                </div>
+            )}
+
+            {/* ─── Conteúdo real OU Ficha (omite ficha se vídeo é o conteúdo principal) ─── */}
+            {!(entry.data.video && isStub) && isStub && hasExternalUrl ? (
+                <div
+                    class="mt-8 py-8"
+                    style={`border-top: 1px solid var(--color-border);`}
+                >
+                    <blockquote
+                        class="text-lg leading-relaxed mb-8 pl-6"
+                        style={`
+                            font-family: var(--font-quote);
+                            font-style: italic;
+                            color: var(--color-ink);
+                            border-left: 3px solid var(--color-border);
+                        `}
+                    >
+                        {entry.data.description}
+                    </blockquote>
+
+                    <a
+                        href={entry.data.externalUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-sm px-5 py-2.5 no-underline"
+                        style={`
+                            color: var(--color-ink);
+                            border: 1px solid var(--color-ink);
+                            font-family: var(--font-body);
+                            transition: opacity var(--transition-fast);
+                        `}
+                    >
+                        Ler em {entry.data.venue || "publicação original"} ↗
+                    </a>
+                </div>
+            ) : !(entry.data.video && isStub) && isStub ? (
+                <div
+                    class="mt-8 py-8"
+                    style={`border-top: 1px solid var(--color-border);`}
+                >
+                    <p
+                        class="text-base leading-relaxed mb-6"
+                        style={`color: var(--color-ink); font-family: var(--font-body);`}
+                    >
+                        {entry.data.description}
+                    </p>
+
+                    {hasExternalUrl && (
+                        <a
+                            href={entry.data.externalUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-2 text-sm px-5 py-2.5 no-underline"
+                            style={`
+                                color: var(--color-ink);
+                                border: 1px solid var(--color-ink);
+                                font-family: var(--font-body);
+                                transition: opacity var(--transition-fast);
+                            `}
+                        >
+                            Ver publicação original ↗
+                        </a>
+                    )}
+                </div>
+            ) : !(entry.data.video && isStub) ? (
+                <div
+                    class="prose max-w-none"
+                    style={`
+                        color: var(--color-ink);
+                        font-family: var(--font-body);
+                        line-height: 1.75;
+                    `}
+                >
+                    <Content />
+                </div>
+            ) : null}
+
+            {/* ─── Vídeo embed (após o conteúdo, quando videoLast) ─── */}
+            {entry.data.video && entry.data.videoLast && !isStub && (
+                <div
+                    class="mt-10 mb-6"
+                    style={`border: 1px solid var(--color-border);`}
+                >
+                    <iframe
+                        src={getVideoEmbedSrc(entry.data.video)}
+                        title={entry.data.title}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="width: 100%; aspect-ratio: 16/9; display: block; border: none;"
+                    />
+                </div>
+            )}
+
+            {/* Link externo abaixo do conteúdo (só quando não há PDF) */}
+            {!isStub && hasExternalUrl && !entry.data.pdf && (
+                <div class="mt-8 pt-6" style={`border-top: 1px solid var(--color-border);`}>
+                    <a
+                        href={entry.data.externalUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-sm underline underline-offset-4"
+                        style={`color: var(--color-ink); font-family: var(--font-body);`}
+                    >
+                        Ler publicação original ↗
+                    </a>
+                </div>
+            )}
+
+            {/* ─── PDF embed (Google Drive) + link externo abaixo ─── */}
+            {entry.data.pdf && (
+                <div class="mt-10 pt-8" style={`border-top: 1px solid var(--color-border);`}>
+                    <p
+                        class="text-xs uppercase tracking-widest mb-4"
+                        style={`color: var(--color-ink-muted); font-family: var(--font-body); letter-spacing: 0.15em;`}
+                    >
+                        Leitura
+                    </p>
+                    <iframe
+                        src={toDrivePreviewUrl(entry.data.pdf)}
+                        title={`${entry.data.title} — PDF`}
+                        allowfullscreen
+                        style={`
+                            width: 100%;
+                            height: 700px;
+                            border: 1px solid var(--color-border);
+                            display: block;
+                        `}
+                    />
+                    {hasExternalUrl && (
+                        <div class="mt-6">
+                            <a
+                                href={entry.data.externalUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="inline-flex items-center gap-2 text-sm underline underline-offset-4"
+                                style={`color: var(--color-ink); font-family: var(--font-body);`}
+                            >
+                                Ler publicação original ↗
+                            </a>
+                        </div>
+                    )}
+                </div>
+            )}
+
+            <RelatedItems
+                currentSlug={cleanSlug}
+                currentTags={entry.data.tags}
+            />
+        </article>
+
+        <!-- ─── Sidebar: mini-graph ─── -->
+        <aside class="hidden lg:block lg:w-72 shrink-0 lg:sticky lg:top-24 lg:self-start lg:mx-0">
+            <p
+                class="text-xs uppercase tracking-widest mb-4 px-4 sm:px-8 md:px-16 lg:px-0"
+                style={`color: var(--color-ink-muted); font-family: var(--font-body); letter-spacing: 0.15em;`}
+            >
+                Conexões
+            </p>
+            <GraphView mode="mini" currentSlug={cleanSlug} />
+        </aside>
+    </div>
+</Layout>

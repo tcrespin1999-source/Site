@@ -1,0 +1,730 @@
+---
+/**
+ * GraphView.astro
+ *
+ * mode="full"  → Home: hubs como âncoras, drift imperceptível
+ * mode="mini"  → Sidebar contextual, force-directed clássico
+ */
+
+interface Props {
+    mode: "full" | "mini";
+    currentSlug?: string;
+}
+
+const { mode = "full", currentSlug } = Astro.props;
+---
+
+<div
+    data-graph-view
+    data-mode={mode}
+    data-slug={currentSlug || ""}
+    class="relative overflow-hidden"
+    style={mode === "mini" ? "width: 100%;" : "width: 100%; height: 100%;"}
+></div>
+
+<script>
+    import * as d3 from "d3";
+
+    interface GraphNode extends d3.SimulationNodeDatum {
+        id: string;
+        title: string;
+        type: "trabalho" | "hub";
+        tags: string[];
+        url: string;
+        label?: string;
+        image?: string;
+    }
+
+    interface GraphLink extends d3.SimulationLinkDatum<GraphNode> {
+        source: string | GraphNode;
+        target: string | GraphNode;
+        sharedTags: string[];
+    }
+
+    interface GraphData {
+        nodes: GraphNode[];
+        links: GraphLink[];
+    }
+
+    // ────────────────────────────────────────────────────────────
+    // POSIÇÕES DOS HUBS — px/py desktop, pxM/pyM mobile (frações 0–1)
+    // ────────────────────────────────────────────────────────────
+    const HUBS = [
+        { id: "hub-judaico",     label: "Estudos judaicos",   matchTags: ["judaico"],     px: 0.22, py: 0.06, pxM: 0.20, pyM: 0.06 },
+        { id: "hub-diaspora",    label: "Diáspora",           matchTags: ["diaspora"],    px: 0.50, py: 0.04, pxM: 0.50, pyM: 0.04 },
+        { id: "hub-literatura",  label: "Literatura",         matchTags: ["literatura"],  px: 0.78, py: 0.06, pxM: 0.80, pyM: 0.06 },
+        { id: "hub-curadoria",   label: "Curadoria",          matchTags: ["curadoria"],   px: 0.06, py: 0.34, pxM: 0.07, pyM: 0.30 },
+        { id: "hub-arte",        label: "Cultura material",   matchTags: ["arte"],        px: 0.06, py: 0.62, pxM: 0.07, pyM: 0.58 },
+        { id: "hub-urbano",      label: "Estudos urbanos",    matchTags: ["urbano"],      px: 0.22, py: 0.90, pxM: 0.18, pyM: 0.88 },
+        { id: "hub-editorial",   label: "Editorial",          matchTags: ["editorial"],   px: 0.50, py: 0.52, pxM: 0.50, pyM: 0.52 },
+        { id: "hub-cultural",    label: "Projetos culturais", matchTags: ["cultural"],    px: 0.78, py: 0.90, pxM: 0.82, pyM: 0.88 },
+        { id: "hub-performance", label: "Performance",        matchTags: ["performance"], px: 0.94, py: 0.62, pxM: 0.93, pyM: 0.58 },
+        { id: "hub-design",      label: "Design gráfico",     matchTags: ["design"],      px: 0.94, py: 0.34, pxM: 0.93, pyM: 0.30 },
+    ];
+
+    function getNodeId(node: string | GraphNode): string {
+        return typeof node === "object" ? node.id : node;
+    }
+
+    function truncate(text: string, max: number): string {
+        return text.length > max ? text.slice(0, max - 1) + "…" : text;
+    }
+
+    function getHubDimensions(label: string, w: number, fontSize = 12): { w: number; h: number } {
+        const scale = Math.min(1, w / 480);
+        const rw = Math.max(72, (label.length * fontSize * 0.68 + 30) * Math.max(0.7, scale));
+        const rh = Math.max(fontSize + 14, (fontSize + 18) * Math.max(0.78, scale));
+        return { w: Math.round(rw), h: Math.round(rh) };
+    }
+
+    /** Full mode desktop — hairlines + espaço negativo generoso */
+    function computeForces(w: number, h: number, n: number) {
+        const sp = Math.sqrt((w * h) / n) * 0.95;
+        return {
+            linkDistance: Math.max(150,  sp * 1.50),
+            chargeStr:   -Math.max(300, sp * 3.40),
+            centerStr:    0.004,   // muito fraco — nós ocupam as laterais
+            collisionR:   Math.max(24,  sp * 0.20),
+            nodeBase:     Math.max(6,   Math.min(16, sp * 0.026)),
+            labelSize:    Math.max(10,  Math.min(17, sp * 0.030)),
+            strokeW:      0.4,
+        };
+    }
+
+    function computeMobileForces(w: number, h: number, n: number) {
+        const sp = Math.sqrt((w * h) / n) * 0.62;
+        return {
+            linkDistance: Math.max(55,  sp * 0.75),
+            chargeStr:   -Math.max(110, sp * 1.60),
+            centerStr:    0.002,
+            collisionR:   Math.max(10,  sp * 0.10),
+            nodeBase:     Math.max(4, Math.min(9, sp * 0.018)),
+            labelSize:    9,
+            strokeW:      0.5,
+        };
+    }
+
+    function computeMiniForces(w: number, h: number, n: number, mobile = false) {
+        const factor = mobile ? 0.70 : 0.55;
+        const sp = Math.sqrt((w * h) / n) * factor;
+        return {
+            linkDistance:  Math.max(mobile ? 65 : 38, sp),
+            chargeStr:    -Math.max(mobile ? 90 : 55, sp * (mobile ? 2.1 : 1.8)),
+            hubMult:       1.8,
+            centerStr:     mobile ? 0.07 : 0.15,
+            collisionR:    Math.max(mobile ? 14 : 9, sp * 0.09),
+            nodeBase:      mobile ? 7 : 5,
+            labelSize:     mobile ? 10 : 8,
+            strokeW:       mobile ? 1.0 : 0.8,
+        };
+    }
+
+    async function initGraph(container: HTMLElement) {
+        const mode        = container.dataset.mode || "full";
+        const currentSlug = container.dataset.slug || null;
+        const isMini      = mode === "mini";
+        const isMobile    = window.innerWidth < 768;
+        const HUB_FONT_PX = isMini ? (isMobile ? 8 : 9) : (isMobile ? 10 : 12);
+        const NODE_RADIUS = Math.round(HUB_FONT_PX / 2);
+
+        const res  = await fetch("/graph-data.json");
+        const data: GraphData = await res.json();
+        if (data.nodes.length === 0) return;
+
+        // ─── Injetar hubs + links hub-conteúdo ───
+        {
+            const allHubNodes: GraphNode[] = HUBS.map((h) => ({
+                id: h.id, title: h.label, label: h.label,
+                type: "hub" as const, tags: [...h.matchTags], url: `/projetos?hub=${h.id}`,
+            }));
+            const allHubLinks: GraphLink[] = [];
+            data.nodes.forEach((node) => {
+                HUBS.forEach((hub) => {
+                    if (hub.matchTags.some((t) => node.tags.includes(t))) {
+                        allHubLinks.push({
+                            source: node.id, target: hub.id,
+                            sharedTags: hub.matchTags.filter((t) => node.tags.includes(t)),
+                        });
+                    }
+                });
+            });
+
+            if (isMini && currentSlug) {
+                const relevantHubIds = new Set(
+                    allHubLinks
+                        .filter((l) => l.source === currentSlug)
+                        .map((l) => l.target as string)
+                );
+                data.nodes = [
+                    ...data.nodes.filter((n) => n.id === currentSlug),
+                    ...allHubNodes.filter((h) => relevantHubIds.has(h.id)),
+                ];
+                data.links = allHubLinks.filter((l) =>
+                    l.source === currentSlug &&
+                    relevantHubIds.has(l.target as string)
+                );
+            } else {
+                data.nodes = [...data.nodes, ...allHubNodes];
+                data.links = allHubLinks;
+            }
+        }
+
+        // ─── Dimensions ───
+        let width  = Math.max(container.clientWidth  || window.innerWidth,  isMini ? 200 : 300);
+        let height = isMini
+            ? (isMobile
+                ? Math.round(window.innerHeight * 0.55)
+                : Math.round(width * 1.25))
+            : Math.max(container.clientHeight > 10 ? container.clientHeight : (window.innerHeight - 64), 300);
+        if (isMini) container.style.height = `${height}px`;
+
+        // ─── CSS vars ───
+        const cs          = getComputedStyle(document.documentElement);
+        const inkColor    = cs.getPropertyValue("--color-ink").trim();
+        const mutedColor  = cs.getPropertyValue("--color-ink-muted").trim();
+        const bgColor     = cs.getPropertyValue("--color-bg").trim();
+        const borderColor = cs.getPropertyValue("--color-border").trim();
+
+        // ─── Degree map ───
+        const degreeMap = new Map<string, number>();
+        data.nodes.forEach((n) => degreeMap.set(n.id, 0));
+        data.links.forEach((l) => {
+            const s = getNodeId(l.source), t = getNodeId(l.target);
+            degreeMap.set(s, (degreeMap.get(s) || 0) + 1);
+            degreeMap.set(t, (degreeMap.get(t) || 0) + 1);
+        });
+
+        // ─── Force params ───
+        let fp = isMini
+            ? computeMiniForces(width, height, data.nodes.length, isMobile)
+            : isMobile
+                ? computeMobileForces(width, height, data.nodes.length)
+                : computeForces(width, height, data.nodes.length);
+
+        function getRadius(node: GraphNode): number {
+            if (!isMini) return NODE_RADIUS;
+            const degree = degreeMap.get(node.id) || 1;
+            const base = fp.nodeBase + degree * 0.7;
+            return (currentSlug && node.id === currentSlug) ? base * 1.1 : base;
+        }
+
+        // ─── Posições iniciais (full mode) ───
+        if (!isMini) {
+            data.nodes.filter((n) => n.type === "hub").forEach((d) => {
+                const hub = HUBS.find((h) => h.id === d.id)!;
+                d.x = width  * (isMobile ? hub.pxM : hub.px);
+                d.y = height * (isMobile ? hub.pyM : hub.py);
+            });
+            data.nodes.filter((n) => n.type !== "hub").forEach((d) => {
+                const connected = HUBS.filter((h) =>
+                    h.matchTags.some((t) => d.tags.includes(t))
+                );
+                if (connected.length === 0) {
+                    d.x = width  * (0.25 + Math.random() * 0.50);
+                    d.y = height * (0.25 + Math.random() * 0.50);
+                } else {
+                    const avgPx = connected.reduce((s, h) => s + (isMobile ? h.pxM : h.px), 0) / connected.length;
+                    const avgPy = connected.reduce((s, h) => s + (isMobile ? h.pyM : h.py), 0) / connected.length;
+                    const jit = 0.24;
+                    d.x = width  * avgPx + (Math.random() - 0.5) * width  * jit;
+                    d.y = height * avgPy + (Math.random() - 0.5) * height * jit;
+                }
+            });
+        }
+
+        // ─── SVG ───
+        const svg = d3
+            .select(container)
+            .append("svg")
+            .attr("width",   width)
+            .attr("height",  height)
+            .attr("viewBox", `0 0 ${width} ${height}`)
+            .style("display",      "block")
+            .style("overflow",     "hidden")
+            .style("touch-action", isMini ? "pan-y" : "none");
+
+        // ─── Bokeh: filtros SVG com feGaussianBlur ───
+
+        const zoomGroup = svg.append("g").attr("class", "zoom-group");
+
+        // ─── Boundary force ───
+        const EDGE_PAD_H = isMobile ? 20 : 32;
+        const EDGE_PAD_V = isMobile ? 24 : 48; // mais espaço no topo/rodapé
+        function boundaryForce() {
+            data.nodes.forEach((d) => {
+                const r = d.type === "hub"
+                    ? getHubDimensions(d.label || d.title, width).w / 2 + 8
+                    : getRadius(d) + 4;
+                const px = r + EDGE_PAD_H, py = r + EDGE_PAD_V;
+                if (d.x! < px)          d.vx = (d.vx || 0) + (px - d.x!) * 0.3;
+                if (d.x! > width - px)  d.vx = (d.vx || 0) + (width - px - d.x!) * 0.3;
+                if (d.y! < py)          d.vy = (d.vy || 0) + (py - d.y!) * 0.3;
+                if (d.y! > height - py) d.vy = (d.vy || 0) + (height - py - d.y!) * 0.3;
+            });
+        }
+
+        // ─── Hub anchor: força de retorno suave às posições configuradas ───
+        // Faz hubs funcionarem como âncoras pesadas sem travar com fx/fy
+        function hubAnchorForce() {
+            data.nodes.forEach((d) => {
+                if (d.type !== "hub") return;
+                const hub = HUBS.find((h) => h.id === d.id);
+                if (!hub) return;
+                const tx = width  * (isMobile ? hub.pxM : hub.px);
+                const ty = height * (isMobile ? hub.pyM : hub.py);
+                d.vx = (d.vx || 0) + (tx - d.x!) * 0.004;
+                d.vy = (d.vy || 0) + (ty - d.y!) * 0.004;
+            });
+        }
+
+        // ─── Force simulation ───
+        const simulation = d3
+            .forceSimulation<GraphNode>(data.nodes)
+            .force("link",
+                d3.forceLink<GraphNode, GraphLink>(data.links)
+                    .id((d) => d.id)
+                    .distance(fp.linkDistance)
+                    .strength(isMini ? 0.65 : 0.18)
+            )
+            .force("charge",
+                d3.forceManyBody<GraphNode>()
+                    .strength((d) => {
+                        if (!isMini && d.type === "hub") return fp.chargeStr * 2.8;
+                        const mult = isMini ? (fp as any).hubMult ?? 1 : 1;
+                        return d.type === "hub" ? fp.chargeStr * mult : fp.chargeStr;
+                    })
+            )
+            .force("x",          d3.forceX<GraphNode>(width  / 2).strength(fp.centerStr))
+            .force("y",          d3.forceY<GraphNode>(height / 2).strength(fp.centerStr))
+            .force("boundary",   !isMini ? boundaryForce  : null)
+            .force("hub-anchor", !isMini ? hubAnchorForce : null)
+            .force("collision",
+                d3.forceCollide<GraphNode>().radius((d) => {
+                    if (d.type === "hub") {
+                        const { w, h } = getHubDimensions(d.label || d.title, width);
+                        return Math.sqrt(w * w + h * h) / 2 + (isMobile ? 8 : 12);
+                    }
+                    return fp.collisionR + getRadius(d);
+                })
+            )
+            .alphaDecay(isMini ? 0.028 : isMobile ? 0.020 : 0.018)
+            .velocityDecay(isMini ? 0.40 : isMobile ? 0.50 : 0.52);
+
+        // ─── Links (hairline) ───
+        const link = zoomGroup
+            .append("g")
+            .selectAll<SVGLineElement, GraphLink>("line")
+            .data(data.links)
+            .join("line")
+            .attr("stroke",         borderColor)
+            .attr("stroke-opacity", isMini ? 0.3 : 0.40)
+            .attr("stroke-width",   isMini ? fp.strokeW : 0.7);
+
+        // ─── Hub / content splits ───
+        const hubData     = data.nodes.filter((n) => n.type === "hub");
+        const contentData = data.nodes.filter((n) => n.type !== "hub");
+
+        // ─── Hub nodes ───
+        const hubNodeGroup = zoomGroup.append("g").attr("class", "hub-nodes");
+        const hubNode = hubNodeGroup
+            .selectAll<SVGGElement, GraphNode>("g")
+            .data(hubData)
+            .join("g")
+            .attr("cursor", isMini ? "pointer" : "grab");
+
+        if (!isMini) {
+            hubNode.append("rect")
+                .attr("width",  (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).w)
+                .attr("height", (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h)
+                .attr("x", (d) => -getHubDimensions(d.label || d.title, width, HUB_FONT_PX).w / 2)
+                .attr("y", (d) => -getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h / 2)
+                .attr("rx", (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h / 2)
+                .attr("fill", "transparent")
+                .attr("stroke", inkColor)
+                .attr("stroke-width", 0.5);
+        } else {
+            // rect invisível como área de clique (o texto tem pointer-events: none)
+            hubNode.append("rect")
+                .attr("width",  (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).w)
+                .attr("height", (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h)
+                .attr("x", (d) => -getHubDimensions(d.label || d.title, width, HUB_FONT_PX).w / 2)
+                .attr("y", (d) => -getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h / 2)
+                .attr("rx", (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h / 2)
+                .attr("fill", "transparent")
+                .attr("stroke", "none");
+        }
+
+        hubNode.append("text")
+            .text((d) => (d.label || d.title).toUpperCase())
+            .attr("text-anchor",       "middle")
+            .attr("dominant-baseline", "central")
+            .attr("dy",         "0.05em")
+            .attr("font-size",  `${HUB_FONT_PX}px`)
+            .attr("font-family","'DM Sans', 'Guaruja Neue', system-ui, sans-serif")
+            .attr("font-weight","700")
+            .attr("letter-spacing", "0.13em")
+            .attr("fill", inkColor)
+            .attr("pointer-events", "none")
+            .style("user-select", "none");
+
+        // ─── Content nodes ───
+        const node = zoomGroup
+            .append("g")
+            .selectAll<SVGCircleElement, GraphNode>("circle")
+            .data(contentData)
+            .join("circle")
+            .attr("r",       (d) => getRadius(d))
+            .attr("fill",    inkColor)
+            .attr("opacity", (d) => (isMini && currentSlug && d.id !== currentSlug) ? 0.35 : 1)
+            .attr("cursor",  "pointer");
+
+        // ─── Labels ───
+        const labelAnchor   = isMobile ? "middle" : "start";
+        const labelTruncMax = isMobile ? 18 : isMini ? 16 : 26;
+        const label = zoomGroup
+            .append("g")
+            .attr("class", "node-labels")
+            .selectAll<SVGTextElement, GraphNode>("text")
+            .data(contentData)
+            .join("text")
+            .text((d) => truncate(d.title, labelTruncMax))
+            .attr("font-size",    `${fp.labelSize}px`)
+            .attr("font-family",  "'Guaruja Neue', 'DM Sans', system-ui, sans-serif")
+            .attr("fill",         mutedColor)
+            .attr("text-anchor",  labelAnchor)
+            .attr("opacity", (d) => !isMini ? 0.60 : (currentSlug && d.id === currentSlug) ? 0.9 : 0.5)
+            .attr("pointer-events", "none")
+            .style("user-select", "none");
+
+        // ─── Tooltip / image panel ───
+        const tooltip = d3
+            .select(container)
+            .append("div")
+            .style("position",       "absolute")
+            .style("pointer-events", "none")
+            .style("opacity",        "0")
+            .style("border-radius",  "0")
+            .style("z-index",        "10")
+            .style("transition",     "opacity 120ms ease")
+            .style("overflow",       "hidden")
+            .style("max-width",      "none");
+
+        // ─── Helpers ───
+        function getNeighbors(d: GraphNode): Set<string> {
+            const nb = new Set<string>([d.id]);
+            data.links.forEach((l) => {
+                const s = getNodeId(l.source), t = getNodeId(l.target);
+                if (s === d.id) nb.add(t);
+                if (t === d.id) nb.add(s);
+            });
+            return nb;
+        }
+
+        const DIM_DUR = 180;
+
+        function highlightNeighbors(d: GraphNode) {
+            const nb = getNeighbors(d);
+
+            node.filter((n) => n.id === d.id)
+                .raise();
+
+            // Expand com transição suave
+            node.filter((n) => n.id === d.id)
+                .transition().duration(DIM_DUR).ease(d3.easeCubicOut)
+                .attr("r",       getRadius(d) * 1.85)
+                .attr("opacity", 1);
+
+            // Dim não-vizinhos
+            node.filter((n) => n.id !== d.id)
+                .transition().duration(DIM_DUR)
+                .attr("opacity", (n) => nb.has(n.id) ? 0.90 : 0.05);
+
+            hubNode.transition().duration(DIM_DUR)
+                .attr("opacity", (n) => nb.has(n.id) ? 1 : 0.05);
+
+            link.transition().duration(DIM_DUR)
+                .attr("stroke-opacity", (l) => {
+                    const s = getNodeId(l.source), t = getNodeId(l.target);
+                    return (s === d.id || t === d.id) ? 0.70 : 0.02;
+                });
+
+            if (!isMini) {
+                label.transition().duration(DIM_DUR)
+                    .attr("opacity", (n) => nb.has(n.id) ? 1 : 0.02);
+            } else {
+                label.transition().duration(DIM_DUR)
+                    .attr("opacity", (n) => nb.has(n.id) ? 0.9 : 0.1);
+            }
+        }
+
+        function resetOpacities() {
+
+            // Restaurar opacidade e raio com transição
+            node.transition().duration(250).ease(d3.easeCubicOut)
+                .attr("r",       (d) => getRadius(d))
+                .attr("opacity", (d) => (isMini && currentSlug && d.id !== currentSlug) ? 0.35 : 1);
+
+            hubNode.transition().duration(250).attr("opacity", 1);
+
+            link.transition().duration(250)
+                .attr("stroke-opacity", isMini ? 0.3 : 0.40);
+
+            label.transition().duration(250)
+                .attr("opacity", (d) => !isMini ? 0.60 : (currentSlug && d.id === currentSlug) ? 0.9 : 0.5);
+
+            tooltip.style("opacity", "0");
+        }
+
+        function showTooltip(d: GraphNode, ev: PointerEvent) {
+            const titleTruncated = d.title.length > labelTruncMax;
+            const hasImage = !isMini && !!d.image;
+            if (!titleTruncated && !hasImage && !isMobile) return;
+
+            const rect = container.getBoundingClientRect();
+
+            if (hasImage) {
+                // Card fixo paisagem: 260px × (150px img + legenda com wrap)
+                const CARD_W = 260;
+                tooltip
+                    .style("padding",     "0")
+                    .style("width",       `${CARD_W}px`)
+                    .style("background",  bgColor)
+                    .style("color",       inkColor)
+                    .style("box-shadow",  "0 4px 28px rgba(0,0,0,0.09)")
+                    .style("white-space", "normal")
+                    .style("font-size",   "")
+                    .html(
+                        `<img src="${d.image}" alt="" style="width:100%;height:150px;object-fit:cover;display:block;">` +
+                        `<span style="display:block;padding:8px 12px 10px;font-size:0.7rem;letter-spacing:0.05em;` +
+                        `color:${mutedColor};font-family:var(--font-body);line-height:1.45;white-space:normal;">${d.title}</span>`
+                    );
+
+                const tx = ev.clientX - rect.left + 22;
+                const ty = ev.clientY - rect.top  - 100;
+                tooltip
+                    .style("opacity", "1")
+                    .style("left", Math.min(tx, width - CARD_W - 12) + "px")
+                    .style("top",  Math.max(ty, 4) + "px");
+            } else {
+                // Tooltip texto simples
+                tooltip
+                    .style("padding",     "4px 10px")
+                    .style("background",  inkColor)
+                    .style("color",       bgColor)
+                    .style("box-shadow",  "none")
+                    .style("white-space", "nowrap")
+                    .style("font-size",   "0.7rem")
+                    .html(`<span>${d.title}</span>`);
+
+                const tx = ev.clientX - rect.left + 14;
+                const ty = ev.clientY - rect.top  - 32;
+                tooltip
+                    .style("opacity", "1")
+                    .style("left", Math.min(tx, width - 230) + "px")
+                    .style("top",  Math.max(ty, 4) + "px");
+            }
+        }
+
+        // ─── Interação desktop ───
+        if (!isMobile) {
+            node
+                .on("pointerover", function (_ev, d) {
+                    highlightNeighbors(d);
+                    showTooltip(d, _ev as PointerEvent);
+                })
+                .on("pointermove", function (ev, d) {
+                    const hasImage = !isMini && !!d.image;
+                    if (!hasImage && d.title.length <= 26) return;
+                    const rect = container.getBoundingClientRect();
+                    const tx = (ev as PointerEvent).clientX - rect.left + (hasImage ? 22 : 14);
+                    const ty = (ev as PointerEvent).clientY - rect.top  - (hasImage ? 100 : 10);
+                    tooltip
+                        .style("left", Math.min(tx, width - (hasImage ? 272 : 230)) + "px")
+                        .style("top",  Math.max(ty, 4) + "px");
+                })
+                .on("pointerout", resetOpacities)
+                .on("click", function (_ev, d) {
+                    if (!d.url) return;
+                    if (d.url.startsWith("http")) window.open(d.url, "_blank", "noopener,noreferrer");
+                    else window.location.href = d.url;
+                });
+
+            hubNode
+                .on("pointerover", function (_ev, d) { highlightNeighbors(d); })
+                .on("pointerout",  resetOpacities)
+                .on("click", function (_ev, d) {
+                    if (d.url) window.location.href = d.url;
+                });
+        }
+
+        // ─── Interação mobile ───
+        if (isMobile) {
+            node
+                .on("pointerdown", function (_ev, d) {
+                    highlightNeighbors(d);
+                    showTooltip(d, _ev as PointerEvent);
+                })
+                .on("click", function (_ev, d) {
+                    if (!d.url) return;
+                    if (d.url.startsWith("http")) window.open(d.url, "_blank", "noopener,noreferrer");
+                    else window.location.href = d.url;
+                });
+
+            hubNode
+                .on("pointerdown", function (_ev, d) { highlightNeighbors(d); })
+                .on("click", function (_ev, d) {
+                    if (d.url) window.location.href = d.url;
+                });
+
+            svg.on("pointerdown", function (ev) {
+                if ((ev.target as Element) === svg.node()) resetOpacities();
+            });
+        }
+
+        // ─── Drag ───
+        if (!isMini) {
+            const contentDrag = d3.drag<SVGCircleElement, GraphNode>()
+                .on("start", (ev: any, d: GraphNode) => {
+                    if (!ev.active) simulation.alphaTarget(0.20).restart();
+                    d.fx = d.x; d.fy = d.y;
+                })
+                .on("drag",  (ev: any, d: GraphNode) => { d.fx = ev.x; d.fy = ev.y; })
+                .on("end",   (ev: any, d: GraphNode) => {
+                    if (!ev.active) simulation.alphaTarget(0);
+                    d.fx = null; d.fy = null;
+                    if (isMobile) setTimeout(resetOpacities, 1200);
+                });
+
+            const hubDrag = d3.drag<SVGGElement, GraphNode>()
+                .clickDistance(4)
+                .on("start", (ev: any, d: GraphNode) => {
+                    if (!ev.active) simulation.alphaTarget(0.20).restart();
+                    d.fx = d.x; d.fy = d.y;
+                    hubNode.filter((n) => n.id === d.id).attr("cursor", "grabbing");
+                })
+                .on("drag",  (ev: any, d: GraphNode) => { d.fx = ev.x; d.fy = ev.y; })
+                .on("end",   (ev: any, d: GraphNode) => {
+                    if (!ev.active) simulation.alphaTarget(0);
+                    d.fx = null; d.fy = null; // hub-anchor traz de volta suavemente
+                    hubNode.filter((n) => n.id === d.id).attr("cursor", "grab");
+                });
+
+            node.call(contentDrag as any);
+            hubNode.call(hubDrag as any);
+
+            zoomGroup.style("transition", "transform var(--transition-fast)");
+            const zoom = d3
+                .zoom<SVGSVGElement, unknown>()
+                .scaleExtent([0.2, 5])
+                .filter((event: any) => {
+                    if (event.touches !== undefined) return event.touches.length >= 2;
+                    return !event.ctrlKey && !event.button;
+                })
+                .on("start", () => zoomGroup.style("transition", "none"))
+                .on("zoom",  (ev) => zoomGroup.attr("transform", ev.transform))
+                .on("end",   () => zoomGroup.style("transition", "transform var(--transition-fast)"));
+            svg.call(zoom);
+            svg.on("dblclick.zoom", null);
+        }
+
+        // ─── Drift eterno imperceptível (full mode only) ───
+        // alphaTarget muito baixo + velocityDecay alto = flutuação quase estática
+        if (!isMini) {
+            simulation.on("end", () => {
+                simulation
+                    .force("drift", (alpha: number) => {
+                        (data.nodes as GraphNode[]).forEach((d: GraphNode) => {
+                            if (d.type === "hub") return;
+                            d.vx = (d.vx || 0) + (Math.random() - 0.5) * alpha * 1.5;
+                            d.vy = (d.vy || 0) + (Math.random() - 0.5) * alpha * 1.5;
+                        });
+                    })
+                    .alphaTarget(0.018)
+                    .velocityDecay(0.86)
+                    .restart();
+            });
+        }
+
+        // ─── Tick ───
+        simulation.on("tick", () => {
+            link
+                .attr("x1", (d) => (d.source as GraphNode).x!)
+                .attr("y1", (d) => (d.source as GraphNode).y!)
+                .attr("x2", (d) => (d.target as GraphNode).x!)
+                .attr("y2", (d) => (d.target as GraphNode).y!);
+            node
+                .attr("cx", (d) => d.x!)
+                .attr("cy", (d) => d.y!);
+            hubNode
+                .attr("transform", (d) => `translate(${d.x!}, ${d.y!})`);
+
+            if (isMobile) {
+                label
+                    .attr("x", (d) => d.x!)
+                    .attr("y", (d) => d.y! + getRadius(d) + 11);
+            } else {
+                label
+                    .attr("x", (d) => d.x! + getRadius(d) + 5)
+                    .attr("y", (d) => d.y! + 4);
+            }
+        });
+
+        // ─── Resize responsivo (full mode) ───
+        if (!isMini) {
+            const resizeObserver = new ResizeObserver((entries) => {
+                for (const entry of entries) {
+                    const nw = entry.contentRect.width;
+                    const nh = entry.contentRect.height;
+                    if (Math.abs(nw - width) < 5 && Math.abs(nh - height) < 5) continue;
+
+                    width  = Math.max(nw, 300);
+                    height = Math.max(nh, 300);
+
+                    svg.attr("width",   width)
+                       .attr("height",  height)
+                       .attr("viewBox", `0 0 ${width} ${height}`);
+
+                    fp = isMobile
+                        ? computeMobileForces(width, height, data.nodes.length)
+                        : computeForces(width, height, data.nodes.length);
+
+                    (simulation.force("link") as d3.ForceLink<GraphNode, GraphLink>)
+                        .distance(fp.linkDistance);
+                    simulation.force("charge",
+                        d3.forceManyBody<GraphNode>()
+                            .strength((d) => (!isMini && d.type === "hub") ? fp.chargeStr * 2.8 : fp.chargeStr)
+                    );
+                    simulation.force("x", d3.forceX<GraphNode>(width  / 2).strength(fp.centerStr));
+                    simulation.force("y", d3.forceY<GraphNode>(height / 2).strength(fp.centerStr));
+                    simulation.force("collision",
+                        d3.forceCollide<GraphNode>().radius((d) => {
+                            if (d.type === "hub") {
+                                const { w, h } = getHubDimensions(d.label || d.title, width);
+                                return Math.sqrt(w * w + h * h) / 2 + 10;
+                            }
+                            return fp.collisionR + getRadius(d);
+                        })
+                    );
+
+                    link.attr("stroke-width", fp.strokeW);
+                    label.attr("font-size",   `${fp.labelSize}px`);
+                    node.attr("r", (d) => getRadius(d));
+
+                    hubNode.select("rect")
+                        .attr("width",  (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).w)
+                        .attr("height", (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h)
+                        .attr("x", (d) => -getHubDimensions(d.label || d.title, width, HUB_FONT_PX).w / 2)
+                        .attr("y", (d) => -getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h / 2)
+                        .attr("rx", (d) => getHubDimensions(d.label || d.title, width, HUB_FONT_PX).h / 2);
+
+                    simulation.alpha(0.4).restart();
+                }
+            });
+            resizeObserver.observe(container);
+        }
+    }
+
+    document
+        .querySelectorAll<HTMLElement>("[data-graph-view]")
+        .forEach(initGraph);
+</script>

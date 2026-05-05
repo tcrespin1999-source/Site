@@ -1,0 +1,522 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const trabalhos = await getCollection("trabalhos", ({ data }) => !data.draft && !data.hideFromList);
+
+type WorkItem = {
+    id: string;
+    title: string;
+    date: Date;
+    year: number;
+    venue: string | undefined;
+    tags: string[];
+    url: string;
+    externalOnly: boolean;
+    image: string | undefined;
+    type: string;
+};
+
+function syntheticDate(e: { data: { date?: Date; year?: number } }): Date {
+    return e.data.date ?? new Date(e.data.year ?? 0, 0, 1);
+}
+
+const allItems: WorkItem[] = trabalhos
+    .map((e) => {
+        const slug = e.id.replace(/\.mdx?$/, "");
+        const externalOnly = e.data.externalOnly ?? false;
+        return {
+            id: slug,
+            title: e.data.title,
+            date: syntheticDate(e),
+            year: e.data.year ?? e.data.date?.getFullYear() ?? new Date().getFullYear(),
+            venue: e.data.venue,
+            tags: e.data.tags,
+            url: externalOnly ? (e.data.externalUrl ?? `/trabalhos/${slug}`) : `/trabalhos/${slug}`,
+            externalOnly,
+            image: e.data.image,
+            type: e.data.type,
+        };
+    })
+    .sort((a, b) => {
+        if (b.year !== a.year) return b.year - a.year;
+        return b.date.getTime() - a.date.getTime();
+    });
+
+// ─── Hubs (espelham exatamente os hubs do grafo da home) ───
+const HUBS_DEF = [
+    { id: "hub-judaico",     label: "Estudos judaicos",   matchTags: ["judaico"] },
+    { id: "hub-diaspora",    label: "Diáspora",           matchTags: ["diaspora"] },
+    { id: "hub-literatura",  label: "Literatura",         matchTags: ["literatura"] },
+    { id: "hub-curadoria",   label: "Curadoria",          matchTags: ["curadoria"] },
+    { id: "hub-arte",        label: "Cultura material",   matchTags: ["arte"] },
+    { id: "hub-urbano",      label: "Estudos urbanos",    matchTags: ["urbano"] },
+    { id: "hub-editorial",   label: "Editorial",          matchTags: ["editorial"] },
+    { id: "hub-cultural",    label: "Projetos culturais", matchTags: ["cultural"] },
+    { id: "hub-performance", label: "Performance",        matchTags: ["performance"] },
+    { id: "hub-design",      label: "Design gráfico",     matchTags: ["design"] },
+];
+
+const hubsWithCount = HUBS_DEF.map((hub) => ({
+    ...hub,
+    count: allItems.filter((item) =>
+        hub.matchTags.some((t) => item.tags.includes(t))
+    ).length,
+})).filter((h) => h.count > 0);
+
+---
+
+<Layout
+    title="Projetos — Tamara Crespin"
+    description="Índice completo de trabalhos."
+    transparentNav
+>
+    <!-- ─── Painel de imagem hover (desktop only) ─── -->
+    <div id="img-panel" aria-hidden="true">
+        <img id="img-panel-img" src="" alt="" />
+    </div>
+
+    <div class="arquivo-layout">
+
+        <!-- ─── Sidebar ─── -->
+        <aside class="arquivo-sidebar">
+
+            <!-- Categorias -->
+            <h2 class="sidebar-label">Categorias</h2>
+            <ul class="sidebar-list">
+                {
+                    hubsWithCount.map((hub) => (
+                        <li>
+                            <button
+                                class="sidebar-btn hub-filter-btn"
+                                data-hub={hub.id}
+                                data-hub-tags={JSON.stringify(hub.matchTags)}
+                            >
+                                {hub.label} ({hub.count})
+                            </button>
+                        </li>
+                    ))
+                }
+            </ul>
+        </aside>
+
+        <!-- ─── Lista de trabalhos ─── -->
+        <section class="arquivo-main">
+            <h1 class="arquivo-titulo">Projetos</h1>
+
+            <!-- ─── Texto de introdução ─── -->
+            <p class="projetos-intro">
+                Tamara Crespin desenvolve uma prática transdisciplinar situada entre produção cultural e processos editoriais, com ênfase nas relações de diáspora e memória judaica, literatura e arte contemporânea, e as disputas simbólicas dos territórios urbanos. Utiliza a <a href="/trabalhos/sala-projetos">Sala Projetos</a> como epicentro de experimentações estéticas, escreve sobre memória, cultura e arte judaica em <a href="/trabalhos/ajla">AJLA</a> e produz o <a href="/trabalhos/bloco-klezmer">Bloco Klezmer do Bom Retiro</a>.
+            </p>
+
+            <!-- ─── Destaques mobile (substitui o intro text) ─── -->
+            <div class="projetos-destaques">
+                <span class="destaques-label">Em foco</span>
+                <ul class="destaques-list">
+                    <li><a href="/trabalhos/sala-projetos">Sala Projetos</a></li>
+                    <li><a href="/trabalhos/ajla">AJLA</a></li>
+                    <li><a href="/trabalhos/bloco-klezmer">Bloco Klezmer do Bom Retiro</a></li>
+                </ul>
+            </div>
+
+            <div id="items-list">
+                {
+                    allItems.map((item) => (
+                        <div
+                            class="arquivo-item"
+                            data-item-tags={JSON.stringify(item.tags)}
+                            data-image={item.image ?? ""}
+                        >
+                            <span class="arquivo-item-year">{item.year}</span>
+                            <a
+                                class="arquivo-item-title arquivo-item-title--link"
+                                href={item.url}
+                                target={item.externalOnly ? "_blank" : undefined}
+                                rel={item.externalOnly ? "noopener noreferrer" : undefined}
+                            >
+                                {item.title}
+                            </a>
+                            {item.venue && (
+                                <span class="arquivo-item-venue">{item.venue}</span>
+                            )}
+                        </div>
+                    ))
+                }
+            </div>
+
+            <p id="no-results" class="no-results-msg">
+                Nenhum item encontrado.
+            </p>
+        </section>
+    </div>
+</Layout>
+
+<style>
+    /* ─── Layout ─── */
+    .arquivo-layout {
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 4rem);
+    }
+
+    @media (min-width: 768px) {
+        .arquivo-layout {
+            flex-direction: row;
+        }
+    }
+
+    /* ─── Sidebar ─── */
+    .arquivo-sidebar {
+        flex-shrink: 0;
+        width: 100%;
+        padding: 1.5rem 1rem 1rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    @media (min-width: 768px) {
+        .arquivo-sidebar {
+            width: 15rem;
+            padding: 3rem 2rem 3rem 2.5rem;
+            border-bottom: none;
+            border-right: 1px solid var(--color-border);
+            position: sticky;
+            top: 4rem;
+            height: calc(100vh - 4rem);
+            overflow-y: auto;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .arquivo-sidebar {
+            width: 17rem;
+            padding: 3.5rem 2rem 3rem 3rem;
+        }
+    }
+
+    .sidebar-label {
+        font-family: var(--font-body);
+        font-size: 0.65rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--color-ink);
+        margin-bottom: 0.75rem;
+    }
+
+    .sidebar-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.15rem 0;
+    }
+
+    @media (min-width: 768px) {
+        .sidebar-list { flex-direction: column; }
+    }
+
+    .sidebar-btn {
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+        color: var(--color-ink);
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        text-align: left;
+        padding: 0.18rem 0.45rem;
+        border-radius: 2px;
+        white-space: nowrap;
+        transition: color var(--transition-fast), background var(--transition-fast);
+    }
+
+    .sidebar-btn:hover {
+        color: var(--color-ink);
+    }
+
+    /* ─── Main content ─── */
+    .arquivo-main {
+        flex: 1;
+        padding: 2rem 1.25rem 6rem;
+    }
+
+    @media (min-width: 768px) {
+        .arquivo-main {
+            padding: 3rem 3rem 8rem;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .arquivo-main {
+            padding: 3.5rem 5rem 8rem 4rem;
+        }
+    }
+
+    .arquivo-titulo {
+        display: none;
+        font-family: var(--font-display);
+        font-size: clamp(3rem, 8vw, 6rem);
+        font-weight: 400;
+        line-height: 1;
+        color: var(--color-ink);
+        margin: 0 0 2.5rem;
+    }
+
+    @media (min-width: 768px) {
+        .arquivo-titulo { display: block; }
+    }
+
+    /* ─── Items ─── */
+    .arquivo-item {
+        display: grid;
+        grid-template-columns: 2.8rem 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 1rem;
+        padding: 1rem 0;
+        border-top: 1px solid var(--color-border);
+    }
+
+    .arquivo-item:first-child {
+        border-top: none;
+    }
+
+    .arquivo-item-year {
+        grid-column: 1;
+        grid-row: 1;
+        font-family: var(--font-body);
+        font-size: 0.68rem;
+        color: var(--color-ink-muted);
+        font-variant-numeric: tabular-nums;
+        padding-top: 0.4em;
+        opacity: 0.75;
+    }
+
+    .arquivo-item-title {
+        grid-column: 2;
+        grid-row: 1;
+        font-family: var(--font-display);
+        font-size: clamp(1.25rem, 2.8vw, 2.2rem);
+        font-weight: 400;
+        line-height: 1.15;
+        color: var(--color-ink);
+        display: block;
+    }
+
+    .arquivo-item-title--link {
+        text-decoration: none;
+        transition: opacity var(--transition-fast);
+    }
+
+    .arquivo-item-title--link:hover {
+        opacity: 0.6;
+    }
+
+    .arquivo-item-venue {
+        grid-column: 2;
+        grid-row: 2;
+        font-family: var(--font-body);
+        font-size: 0.75rem;
+        color: var(--color-ink-muted);
+        margin-top: 0.3rem;
+        display: block;
+    }
+
+    /* ─── Texto de introdução ─── */
+    .projetos-intro {
+        display: none;
+        font-family: var(--font-body);
+        font-size: 1.25rem;
+        line-height: 1.72;
+        color: var(--color-ink);
+        margin-bottom: 2.5rem;
+    }
+
+    @media (min-width: 768px) {
+        .projetos-intro {
+            display: block;
+            font-size: 1.35rem;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .projetos-intro { font-size: 1.45rem; }
+    }
+
+    .projetos-intro a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 1px;
+        transition: opacity var(--transition-fast);
+    }
+
+    .projetos-intro a:hover {
+        opacity: 0.55;
+    }
+
+    /* ─── Destaques mobile ─── */
+    .projetos-destaques {
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    @media (min-width: 768px) {
+        .projetos-destaques { display: none; }
+    }
+
+    .destaques-label {
+        display: block;
+        font-family: var(--font-body);
+        font-size: 0.65rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--color-ink-muted);
+        margin-bottom: 0.75rem;
+    }
+
+    .destaques-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .destaques-list li {
+        border-top: 1px solid var(--color-border);
+        padding: 0.75rem 0;
+    }
+
+    .destaques-list a {
+        font-family: var(--font-display);
+        font-size: clamp(1.25rem, 5.5vw, 1.6rem);
+        font-weight: 400;
+        color: var(--color-ink);
+        text-decoration: none;
+        line-height: 1.2;
+        display: block;
+        transition: opacity var(--transition-fast);
+    }
+
+    .destaques-list a:hover {
+        opacity: 0.6;
+    }
+
+    /* ─── Mensagem sem resultados ─── */
+    .no-results-msg {
+        display: none;
+        padding: 3rem 0;
+        font-family: var(--font-body);
+        font-size: 0.875rem;
+        color: var(--color-ink-muted);
+    }
+
+    /* ─── Hover image panel (desktop only) ─── */
+    #img-panel {
+        display: none;
+        position: fixed;
+        right: 3rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: clamp(240px, 28vw, 400px);
+        background: var(--color-bg);
+        border: 1px solid var(--color-border);
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity var(--transition-base);
+        z-index: 50;
+    }
+
+    @media (min-width: 1024px) {
+        #img-panel { display: block; }
+    }
+
+    #img-panel.visible {
+        opacity: 1;
+    }
+
+    #img-panel-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+</style>
+
+<script>
+    // ─── Estado dos filtros ────────────────────────────────────────
+    const items     = document.querySelectorAll<HTMLElement>("[data-item-tags]");
+    const noResults = document.getElementById("no-results");
+    const hubBtns   = document.querySelectorAll<HTMLButtonElement>(".hub-filter-btn");
+
+    const activeHubs  = new Set<string>();
+    const hubTagsMap  = new Map<string, string[]>();
+
+    hubBtns.forEach((btn) => {
+        hubTagsMap.set(btn.dataset.hub!, JSON.parse(btn.dataset.hubTags || "[]"));
+    });
+
+    function applyActive(btn: HTMLButtonElement, on: boolean) {
+        btn.style.color           = on ? "var(--color-ink)"     : "var(--color-ink)";
+        btn.style.backgroundColor = on ? "var(--color-surface)" : "";
+        btn.style.fontWeight      = on ? "500" : "400";
+    }
+
+    function updateFilter() {
+        let visibleCount = 0;
+        items.forEach((item) => {
+            const tags: string[] = JSON.parse(item.dataset.itemTags || "[]");
+            const show = activeHubs.size === 0 ||
+                [...activeHubs].every((hid) =>
+                    (hubTagsMap.get(hid) || []).some((t) => tags.includes(t))
+                );
+            item.style.display = show ? "" : "none";
+            if (show) visibleCount++;
+        });
+
+        if (noResults) noResults.style.display = visibleCount > 0 ? "none" : "block";
+        hubBtns.forEach((btn) => applyActive(btn, activeHubs.has(btn.dataset.hub!)));
+
+        // Sync URL
+        const url = new URL(window.location.href);
+        if (activeHubs.size === 0) {
+            url.searchParams.delete("hub");
+        } else {
+            url.searchParams.set("hub", [...activeHubs].join(","));
+        }
+        history.replaceState(null, "", url.toString());
+    }
+
+    hubBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            const id = btn.dataset.hub!;
+            if (activeHubs.has(id)) activeHubs.delete(id);
+            else activeHubs.add(id);
+            updateFilter();
+        });
+    });
+
+    // Restaurar estado da URL
+    const hubParam = new URL(window.location.href).searchParams.get("hub");
+    if (hubParam) {
+        hubParam.split(",").forEach((id) => {
+            if (hubTagsMap.has(id)) activeHubs.add(id);
+        });
+    }
+    updateFilter();
+
+    // ─── Hover image panel ────────────────────────────────────────
+    const panel    = document.getElementById("img-panel") as HTMLDivElement | null;
+    const panelImg = document.getElementById("img-panel-img") as HTMLImageElement | null;
+
+    if (panel && panelImg) {
+        document.querySelectorAll<HTMLElement>(".arquivo-item").forEach((item) => {
+            const src = item.dataset.image;
+            if (!src) return;
+            item.addEventListener("mouseenter", () => {
+                panelImg.src = src;
+                panel.classList.add("visible");
+            });
+            item.addEventListener("mouseleave", () => {
+                panel.classList.remove("visible");
+            });
+        });
+    }
+</script>

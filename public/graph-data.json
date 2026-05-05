@@ -1,0 +1,7079 @@
+{
+  "nodes": [
+    {
+      "id": "a-escrita-da-cidade-2026",
+      "title": "A escrita da cidade: metodologias, apropriações e traduções do urbano",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "editorial",
+        "urbano",
+        "performance"
+      ],
+      "url": "/trabalhos/a-escrita-da-cidade-2026",
+      "image": "/images/trabalhos/a-escrita-da-cidade-2026.jpg"
+    },
+    {
+      "id": "a-senhora-da-casa-azul",
+      "title": "A senhora da casa azul",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "ilustracao",
+        "literatura",
+        "cultural",
+        "editorial"
+      ],
+      "url": "/trabalhos/a-senhora-da-casa-azul",
+      "image": "/images/trabalhos/a-senhora-da-casa-azul.jpg"
+    },
+    {
+      "id": "ajla",
+      "title": "AJLA — Arte Judío Latinoamericano",
+      "type": "trabalho",
+      "tags": [
+        "judaico",
+        "diaspora",
+        "literatura",
+        "arte"
+      ],
+      "url": "/trabalhos/ajla"
+    },
+    {
+      "id": "archigram-trajetoria",
+      "title": "Archigram: trajetória e influências ao longo de suas produções",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "editorial"
+      ],
+      "url": "/trabalhos/archigram-trajetoria",
+      "image": "/images/trabalhos/archigram-trajetoria.jpg"
+    },
+    {
+      "id": "bloco-klezmer-estadao",
+      "title": "Bloco Klezmer presta homenagens às figuras judaicas do Bom Retiro",
+      "type": "trabalho",
+      "tags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
+      ],
+      "url": "/trabalhos/bloco-klezmer-estadao"
+    },
+    {
+      "id": "bloco-klezmer-mosaico-tv",
+      "title": "Bloco Klezmer do Bom Retiro",
+      "type": "trabalho",
+      "tags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
+      ],
+      "url": "/trabalhos/bloco-klezmer-mosaico-tv",
+      "image": "/images/trabalhos/bloco-klezmer-mosaico-tv.jpg"
+    },
+    {
+      "id": "bloco-klezmer",
+      "title": "Bloco Klezmer do Bom Retiro",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ],
+      "url": "/trabalhos/bloco-klezmer"
+    },
+    {
+      "id": "cabeza-de-tierra-terremoto",
+      "title": "Cabeza de Tierra",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "traducao",
+        "arte",
+        "editorial"
+      ],
+      "url": "/trabalhos/cabeza-de-tierra-terremoto"
+    },
+    {
+      "id": "cidade-nao-visual-audioguia",
+      "title": "Cidade não-visual: um áudio-guia pelo centro de São Paulo",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ],
+      "url": "/trabalhos/cidade-nao-visual-audioguia",
+      "image": "/images/trabalhos/cidade-nao-visual-audioguia.jpg"
+    },
+    {
+      "id": "construcao-falha-memoria-nacional",
+      "title": "Construção falha de memória nacional: um caso Brasil-Israel",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/construcao-falha-memoria-nacional",
+      "image": "/images/trabalhos/construcao-falha-memoria-nacional.jpg"
+    },
+    {
+      "id": "construction-national-identity",
+      "title": "Construction of national identity: a Brazilian-Israeli case",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/construction-national-identity",
+      "image": "/images/trabalhos/construction-national-identity.jpg"
+    },
+    {
+      "id": "culto-clara-almeida",
+      "title": "Culto",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "performance",
+        "curadoria",
+        "cultural",
+        "arte"
+      ],
+      "url": "/trabalhos/culto-clara-almeida",
+      "image": "/images/trabalhos/culto-clara-almeida.png"
+    },
+    {
+      "id": "dialogos-transversais-antissemitismo",
+      "title": "Diálogos transversais sobre antissemitismo, memória, identidade e conflito",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "colagem",
+        "judaico",
+        "diaspora",
+        "editorial",
+        "design"
+      ],
+      "url": "/trabalhos/dialogos-transversais-antissemitismo",
+      "image": "/images/trabalhos/dialogos-transversais-antissemitismo.jpg"
+    },
+    {
+      "id": "domingo-dos-filhos-de-deus",
+      "title": "Domingo dos Filhos de Deus com a Corrente da Casa Própria",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ],
+      "url": "/trabalhos/domingo-dos-filhos-de-deus",
+      "image": "/images/trabalhos/domingo-dos-filhos-de-deus.jpg"
+    },
+    {
+      "id": "encontro-em-performance",
+      "title": "Encontro em Performance",
+      "type": "trabalho",
+      "tags": [
+        "curadoria",
+        "performance",
+        "cultural"
+      ],
+      "url": "/trabalhos/encontro-em-performance",
+      "image": "/images/trabalhos/encontro-performance.png"
+    },
+    {
+      "id": "encosta-mas-nao-atravessa",
+      "title": "Encosta, mas não atravessa",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "curadoria",
+        "cultural",
+        "arte"
+      ],
+      "url": "/trabalhos/encosta-mas-nao-atravessa"
+    },
+    {
+      "id": "entre-transito-e-transitorios",
+      "title": "Entre trânsito e transitório",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "design",
+        "colagem",
+        "urbano",
+        "arte"
+      ],
+      "url": "https://vimeo.com/478506102",
+      "image": "/images/trabalhos/entre-transito-e-transitorios.png"
+    },
+    {
+      "id": "entrevista-gabriela-carrillo",
+      "title": "Um lugar comum entre o Brasil e o México: entrevista com Gabriela Carrillo",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "traducao",
+        "urbano",
+        "editorial"
+      ],
+      "url": "/trabalhos/entrevista-gabriela-carrillo",
+      "image": "/images/trabalhos/entrevista-gabriela-carrillo.jpg"
+    },
+    {
+      "id": "eruv-artificio-territorializacao",
+      "title": "O eruv como artifício de territorialização das comunidades judaicas ortodoxas nas metrópoles",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/eruv-artificio-territorializacao",
+      "image": "/images/trabalhos/eruv-artificio-territorializacao.jpg"
+    },
+    {
+      "id": "eruv-espaco-comum",
+      "title": "Eruv, um espaço coletivo, habitual e comum",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/eruv-espaco-comum",
+      "image": "/images/trabalhos/eruv-espaco-comum.png"
+    },
+    {
+      "id": "eruv-festa-bom-retiro",
+      "title": "Eruv: uma festa do Bom Retiro",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "colagem",
+        "ilustracao",
+        "cultural",
+        "urbano",
+        "diaspora"
+      ],
+      "url": "/trabalhos/eruv-festa-bom-retiro",
+      "image": "/images/trabalhos/eruv-festa-bom-retiro.jpg"
+    },
+    {
+      "id": "estudio-transversal-espacos-respirar",
+      "title": "Estúdio Transversal: espaços para respirar",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ],
+      "url": "/trabalhos/estudio-transversal-espacos-respirar",
+      "image": "/images/trabalhos/estudio-transversal-espacos-respirar.png"
+    },
+    {
+      "id": "eugenio-peiropolis",
+      "title": "Eugênio",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "ilustracao",
+        "colagem",
+        "literatura",
+        "cultural",
+        "editorial"
+      ],
+      "url": "/trabalhos/eugenio-peiropolis",
+      "image": "/images/trabalhos/eugenio-peiropolis.jpg"
+    },
+    {
+      "id": "exercicio-unico-diadema",
+      "title": "Exercício Único 2021: Laboratório Diadema",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ],
+      "url": "/trabalhos/exercicio-unico-diadema",
+      "image": "/images/trabalhos/exercicio-unico-diadema.jpg"
+    },
+    {
+      "id": "figo-de-agosto",
+      "title": "Figo de Agosto",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "ilustracao",
+        "cultural",
+        "literatura"
+      ],
+      "url": "https://www.instagram.com/figodeagosto/"
+    },
+    {
+      "id": "inclusao-lgbt-espacos-judaicos",
+      "title": "Inclusão LGBT+ nos espaços comunitários judaicos",
+      "type": "trabalho",
+      "tags": [
+        "judaico",
+        "cultural"
+      ],
+      "url": "/trabalhos/inclusao-lgbt-espacos-judaicos",
+      "image": "/images/trabalhos/inclusao-lgbt-espacos-judaicos.jpg"
+    },
+    {
+      "id": "investigacoes-eruv",
+      "title": "Investigações acerca do eruv",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/investigacoes-eruv",
+      "image": "/images/trabalhos/investigacoes-eruv.png"
+    },
+    {
+      "id": "kwakou-press",
+      "title": "Kwakou Press",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "editorial",
+        "cultural",
+        "literatura"
+      ],
+      "url": "/trabalhos/kwakou-press",
+      "image": "/images/trabalhos/kwakou-press.jpg"
+    },
+    {
+      "id": "lugar-como-desprogramar-sinagoga",
+      "title": "Lugar: como desprogramar uma sinagoga",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "performance",
+        "design",
+        "judaico",
+        "diaspora",
+        "arte"
+      ],
+      "url": "/trabalhos/lugar-como-desprogramar-sinagoga",
+      "image": "/images/trabalhos/lugar-como-desprogramar-sinagoga.jpg"
+    },
+    {
+      "id": "mencao-honrosa-mcb",
+      "title": "[Menção Honrosa] Concurso de Cartazes Prêmio Design Museu da Casa Brasileira",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "performance",
+        "design",
+        "colagem",
+        "arte"
+      ],
+      "url": "/trabalhos/mencao-honrosa-mcb",
+      "image": "/images/trabalhos/mencao-honrosa-mcb.png"
+    },
+    {
+      "id": "mostra-cinema-sefaradi",
+      "title": "I Mostra de Cinema Sefaradi",
+      "type": "trabalho",
+      "tags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ],
+      "url": "/trabalhos/mostra-cinema-sefaradi",
+      "image": "/images/trabalhos/mostra-cinema-sefaradi.jpg"
+    },
+    {
+      "id": "my-faith-is-my-master",
+      "title": "My faith is my master, my master is my faith",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "performance",
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ],
+      "url": "/trabalhos/my-faith-is-my-master",
+      "image": "/images/trabalhos/my-faith-is-my-master.png"
+    },
+    {
+      "id": "nas-estacoes-do-metro-plaquete",
+      "title": "Nas estações do metrô",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "performance",
+        "urbano",
+        "literatura",
+        "editorial"
+      ],
+      "url": "/trabalhos/nas-estacoes-do-metro-plaquete"
+    },
+    {
+      "id": "nas-estacoes-do-metro",
+      "title": "Nas estações do metrô: 4 poemas sobre deriva",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "urbano",
+        "literatura",
+        "editorial",
+        "performance"
+      ],
+      "url": "/trabalhos/nas-estacoes-do-metro",
+      "image": "/images/trabalhos/nas-estacoes-do-metro.png"
+    },
+    {
+      "id": "noticias-urgentes",
+      "title": "Notícias Urgentes",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ],
+      "url": "/trabalhos/noticias-urgentes"
+    },
+    {
+      "id": "o-sionismo-nos-espacos-judaicos",
+      "title": "O Sionismo ensinado nos espaços judaicos brasileiros e por que olhá-lo criticamente",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/o-sionismo-nos-espacos-judaicos",
+      "image": "/images/trabalhos/o-sionismo-nos-espacos-judaicos.jpg"
+    },
+    {
+      "id": "outros-corpos-espacos-comunitarios",
+      "title": "Outros corpos, outros espaços comunitários",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/outros-corpos-espacos-comunitarios",
+      "image": "/images/trabalhos/outros-corpos-espacos-comunitarios.png"
+    },
+    {
+      "id": "perez-macs",
+      "title": "@ perez.macs",
+      "type": "trabalho",
+      "tags": [
+        "ilustracao",
+        "design"
+      ],
+      "url": "https://www.instagram.com/p/DAJLMVHOQiM/",
+      "image": "/images/trabalhos/perez-macs.png"
+    },
+    {
+      "id": "porcos-em-foco-2025",
+      "title": "Porcos em Foco 2025",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "editorial"
+      ],
+      "url": "https://www.sinergiaanimalbrasil.org/porcos-em-foco",
+      "image": "/images/trabalhos/porcos-em-foco-2025.png"
+    },
+    {
+      "id": "sala-projetos",
+      "title": "Sala Projetos",
+      "type": "trabalho",
+      "tags": [
+        "cultural",
+        "performance",
+        "arte",
+        "design"
+      ],
+      "url": "/trabalhos/sala-projetos"
+    },
+    {
+      "id": "seminario-museus-judaicos-2025",
+      "title": "2° Seminário Internacional para Museus Judaicos e Profissionais da Arte da América Latina",
+      "type": "trabalho",
+      "tags": [
+        "curadoria",
+        "cultural",
+        "arte",
+        "judaico",
+        "diaspora"
+      ],
+      "url": "/trabalhos/seminario-museus-judaicos-2025",
+      "image": "/images/trabalhos/seminario-museus-judaicos-2025.png"
+    },
+    {
+      "id": "shana-tova-ibi",
+      "title": "Shaná tová!",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "colagem",
+        "ilustracao",
+        "judaico"
+      ],
+      "url": "https://www.instagram.com/p/DO50sCxDrlm/",
+      "image": "/images/trabalhos/shana-tova-ibi.jpg"
+    },
+    {
+      "id": "solo-de-lucro",
+      "title": "Solo de lucro",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "ensaio",
+        "performance",
+        "urbano",
+        "arte",
+        "editorial"
+      ],
+      "url": "/trabalhos/solo-de-lucro",
+      "image": "/images/trabalhos/solo-de-lucro.png"
+    },
+    {
+      "id": "to-recognize-oneself-as-jewish",
+      "title": "To recognize oneself as Jewish from the eyes of others",
+      "type": "trabalho",
+      "tags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ],
+      "url": "/trabalhos/to-recognize-oneself-as-jewish",
+      "image": "/images/trabalhos/to-recognize-oneself-as-jewish.jpg"
+    },
+    {
+      "id": "todo-mundo-book-fair",
+      "title": "todo-mundo art book fair",
+      "type": "trabalho",
+      "tags": [
+        "design",
+        "curadoria",
+        "cultural",
+        "arte",
+        "editorial"
+      ],
+      "url": "/trabalhos/todo-mundo-book-fair",
+      "image": "/images/trabalhos/todo-mundo-book-fair.jpg"
+    },
+    {
+      "id": "urbanizacao-artificial",
+      "title": "Urbanização Artificial",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "colagem",
+        "performance",
+        "urbano",
+        "editorial"
+      ],
+      "url": "/trabalhos/urbanizacao-artificial",
+      "image": "/images/trabalhos/urbanizacao-artificial.png"
+    },
+    {
+      "id": "vender-barcos-anhanagabau",
+      "title": "Vender barcos para atravessar o Anhangabaú em dia de chuva",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "design",
+        "curadoria",
+        "urbano",
+        "arte"
+      ],
+      "url": "https://vendebarcos.hotglue.me/",
+      "image": "/images/trabalhos/vender-barcos-anhanagabau.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "a-senhora-da-casa-azul",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "archigram-trajetoria",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "bloco-klezmer-estadao",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "bloco-klezmer-mosaico-tv",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "bloco-klezmer",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "editorial",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "editorial",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "ajla",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "archigram-trajetoria",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "bloco-klezmer-estadao",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "bloco-klezmer-mosaico-tv",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "bloco-klezmer",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "design",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "design",
+        "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "design",
+        "ilustracao",
+        "literatura",
+        "cultural",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "design",
+        "ilustracao",
+        "literatura",
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "design",
+        "literatura",
+        "cultural",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "cultural",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "bloco-klezmer-estadao",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "bloco-klezmer-mosaico-tv",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "bloco-klezmer",
+      "sharedTags": [
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "bloco-klezmer-mosaico-tv",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "bloco-klezmer",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "bloco-klezmer",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "design",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "design",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "design",
+        "cultural",
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "design",
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "cidade-nao-visual-audioguia",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "traducao",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "arte",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "arte",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "colagem",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "colagem",
+        "diaspora",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "colagem",
+        "editorial",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio",
+        "colagem",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "colagem",
+        "judaico",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial",
+        "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "colagem",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "performance",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "performance",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "curadoria",
+        "performance",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "curadoria",
+        "performance",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "curadoria",
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria",
+        "performance"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "design",
+        "colagem",
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "design",
+        "colagem"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance",
+        "design",
+        "colagem",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "colagem"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance",
+        "colagem",
+        "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "design",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "design",
+        "colagem",
+        "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "design",
+        "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "design",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "design",
+        "colagem"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "colagem",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "colagem",
+        "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial",
+        "urbano"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "design",
+        "ilustracao",
+        "literatura",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "design",
+        "literatura",
+        "cultural",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "design",
+        "colagem"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "ilustracao",
+        "colagem"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "cultural",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "colagem",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "design",
+        "cultural",
+        "literatura"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "editorial",
+        "literatura"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "editorial",
+        "literatura"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design",
+        "editorial"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design",
+        "cultural"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "editorial",
+        "cultural"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "judaico"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "perez-macs",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design",
+        "colagem"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "colagem"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "cultural"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano",
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial",
+        "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial",
+        "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "perez-macs",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "perez-macs",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "perez-macs",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "ilustracao",
+        "design"
+      ]
+    },
+    {
+      "source": "perez-macs",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "perez-macs",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design",
+        "editorial"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "sala-projetos",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "sala-projetos",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "sala-projetos",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "sala-projetos",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "arte",
+        "design"
+      ]
+    },
+    {
+      "source": "sala-projetos",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "sala-projetos",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "arte",
+        "design"
+      ]
+    },
+    {
+      "source": "seminario-museus-judaicos-2025",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "seminario-museus-judaicos-2025",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "seminario-museus-judaicos-2025",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "seminario-museus-judaicos-2025",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "seminario-museus-judaicos-2025",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "shana-tova-ibi",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "shana-tova-ibi",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "shana-tova-ibi",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "colagem"
+      ]
+    },
+    {
+      "source": "shana-tova-ibi",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design"
+      ]
+    },
+    {
+      "source": "solo-de-lucro",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "solo-de-lucro",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "arte",
+        "editorial"
+      ]
+    },
+    {
+      "source": "solo-de-lucro",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "solo-de-lucro",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "to-recognize-oneself-as-jewish",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "to-recognize-oneself-as-jewish",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "todo-mundo-book-fair",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "todo-mundo-book-fair",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "design",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "urbanizacao-artificial",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+---
+/**
+ * TagList.astro
+ *
+ * Tags inline, separadas por "·". Sem pills, sem background.
+ * Clicável para filtro em /arquivo.
+ */
+
+interface Props {
+    tags: string[];
+}
+
+const { tags } = Astro.props;
+
+const TAG_LABELS: Record<string, string> = {
+    design: "design gráfico",
+};
+---
+
+<div class="tag-inline-list">
+    {tags.map((tag, i) => (
+        <>
+            <a
+                href={`/projetos?tag=${encodeURIComponent(tag)}`}
+                data-tag={tag}
+            >{TAG_LABELS[tag] ?? tag}</a>{i < tags.length - 1 && <span aria-hidden="true"> · </span>}
+        </>
+    ))}
+</div>
+
+<style>
+    .tag-inline-list {
+        font-family: var(--font-body);
+        font-size: 0.7rem;
+        color: var(--color-ink-muted);
+        opacity: 0.55;
+        line-height: 1.4;
+    }
+
+    .tag-inline-list a {
+        color: inherit;
+        text-decoration: none;
+        transition: opacity var(--transition-fast);
+    }
+
+    .tag-inline-list a:hover {
+        opacity: 0.4;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    .tag-inline-list span {
+        color: inherit;
+    }
+</style>

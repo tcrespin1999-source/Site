@@ -1,0 +1,206 @@
+---
+import Layout from "../layouts/Layout.astro";
+import GraphView from "../components/GraphView.astro";
+---
+
+<Layout
+  title="Tamara Crespin"
+  description="Estudos judaicos, produtos culturais e afins"
+  hideFooter
+>
+  <div id="splash">
+    <div id="splash-text">
+      <p id="splash-p1"></p>
+      <p id="splash-p2"></p>
+    </div>
+  </div>
+
+  <div class="graph-full">
+    <GraphView mode="full" />
+  </div>
+</Layout>
+
+<style>
+  .graph-full {
+    width: 100%;
+    height: calc(100vh - 4rem);
+  }
+
+  @media (max-width: 767px) {
+    .graph-full {
+      display: none;
+    }
+  }
+
+  #splash {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(2rem, 8vw, 5rem);
+    background: rgba(248, 246, 241, 0.82);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    opacity: 0;
+    transition: opacity 400ms ease;
+    cursor: default;
+  }
+
+  #splash.visible {
+    opacity: 1;
+  }
+
+  #splash.exiting {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #splash-text {
+    font-family: var(--font-display);
+    font-size: clamp(1.25rem, 2.6vw, 2.2rem);
+    line-height: 1.65;
+    color: var(--color-ink);
+    max-width: min(68ch, 90vw);
+  }
+
+  #splash-text p {
+    margin: 0;
+  }
+
+  #splash-text p + p {
+    margin-top: 1em;
+  }
+
+  #splash-text a {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--color-border);
+    cursor: pointer;
+    transition: text-decoration-color 150ms ease;
+  }
+
+  #splash-text a:hover {
+    text-decoration-color: var(--color-ink);
+  }
+
+  .splash-cursor {
+    display: inline;
+    color: var(--color-accent);
+    margin-left: 1px;
+    animation: cursor-blink 900ms step-end infinite;
+  }
+
+  @keyframes cursor-blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+  }
+</style>
+
+<script>
+  const splash   = document.getElementById("splash")!;
+  const p1El     = document.getElementById("splash-p1")!;
+  const p2El     = document.getElementById("splash-p2")!;
+  const isMobile = window.innerWidth < 768;
+
+  const p1Segments: Array<{ text: string; href?: string }> = [
+    { text: "Tamara Crespin",              href: "/sobre" },
+    { text: " desenvolve uma prática transdisciplinar situada entre produção cultural e processos editoriais, com ênfase nas relações de diáspora e memória judaica, literatura e arte contemporânea, e as disputas simbólicas dos territórios urbanos." },
+  ];
+
+  const p2Segments: Array<{ text: string; href?: string }> = [
+    { text: "Utiliza a " },
+    { text: "Sala Projetos",               href: "/trabalhos/sala-projetos" },
+    { text: " como epicentro de experimentações estéticas, escreve sobre memória, cultura e arte judaica em " },
+    { text: "AJLA",                        href: "/trabalhos/ajla" },
+    { text: " e produz o " },
+    { text: "Bloco Klezmer do Bom Retiro", href: "/trabalhos/bloco-klezmer" },
+    { text: "." },
+  ];
+
+  function makeSegEls(segments: Array<{ text: string; href?: string }>) {
+    return segments.map(seg => {
+      if (seg.href) {
+        const a = document.createElement("a");
+        a.href = seg.href;
+        return a;
+      }
+      return document.createElement("span");
+    });
+  }
+
+  const p1SegEls = makeSegEls(p1Segments);
+  const p2SegEls = makeSegEls(p2Segments);
+
+  const cursor = document.createElement("span");
+  cursor.className = "splash-cursor";
+  cursor.textContent = "|";
+
+  p1SegEls.forEach(el => p1El.appendChild(el));
+  p1El.appendChild(cursor);
+  p2SegEls.forEach(el => p2El.appendChild(el));
+
+  function makeQueue(segments: Array<{ text: string; href?: string }>, segEls: HTMLElement[]) {
+    const q: Array<{ char: string; el: HTMLElement }> = [];
+    segments.forEach((seg, i) => {
+      for (const ch of seg.text) q.push({ char: ch, el: segEls[i] as HTMLElement });
+    });
+    return q;
+  }
+
+  const p1Queue = makeQueue(p1Segments, p1SegEls);
+  const p2Queue = makeQueue(p2Segments, p2SegEls);
+
+  let dismissed = false;
+
+  function dismiss() {
+    if (dismissed) return;
+    dismissed = true;
+    splash.classList.remove("visible");
+    splash.classList.add("exiting");
+    splash.addEventListener("transitionend", () => {
+      splash.style.display = "none";
+      if (isMobile) window.location.replace("/projetos");
+    }, { once: true });
+  }
+
+  let qi = 0;
+  let phase = 1;
+
+  function typeNext() {
+    if (dismissed) return;
+
+    if (phase === 1) {
+      if (qi >= p1Queue.length) {
+        p1El.removeChild(cursor);
+        p2El.appendChild(cursor);
+        phase = 2;
+        qi = 0;
+      } else {
+        p1Queue[qi].el.textContent += p1Queue[qi].char;
+        qi++;
+      }
+    } else {
+      if (qi >= p2Queue.length) return;
+      p2Queue[qi].el.textContent += p2Queue[qi].char;
+      qi++;
+    }
+
+    setTimeout(typeNext, 7 + Math.random() * 9);
+  }
+
+  requestAnimationFrame(() => {
+    splash.classList.add("visible");
+    setTimeout(typeNext, 250);
+  });
+
+  window.addEventListener("wheel",     dismiss, { passive: true, once: true });
+  window.addEventListener("touchmove", dismiss, { passive: true, once: true });
+
+  splash.addEventListener("click", (e) => {
+    if ((e.target as Element).closest("#splash-text")) return;
+    dismiss();
+  });
+</script>
