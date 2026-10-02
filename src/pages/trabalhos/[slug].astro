@@ -30,6 +30,10 @@ const hasExternalUrl = !!entry.data.externalUrl;
 
 // ─── Helpers para embeds ───
 function getVideoEmbedSrc(url: string): string {
+    // Google Drive: drive.google.com/file/d/ID/view → /preview
+    if (url.includes("drive.google.com")) {
+        return toDrivePreviewUrl(url);
+    }
     // Vimeo: vimeo.com/123456789
     const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
     if (vimeoMatch) {

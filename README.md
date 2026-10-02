@@ -74,7 +74,7 @@ Campos **obrigatórios**: `title`, `type`, `tags`. Inclua pelo menos um entre `y
 | `externalUrl` | Não | Link externo. Se o trabalho não tem texto próprio, a página exibe um botão para esse link |
 | `image` | Não | Imagem de capa — ver §Imagens |
 | `pdf` | Não | PDF via Google Drive — ver §PDFs |
-| `video` | Não | YouTube ou Vimeo — ver §Vídeos |
+| `video` | Não | YouTube, Vimeo ou Google Drive — ver §Vídeos |
 | `videoLast` | Não | `true` = vídeo aparece após o texto. `false` (padrão) = aparece antes |
 | `lang` | Não | Idioma: `pt` (padrão), `en` ou `es` |
 | `draft` | Não | `true` = rascunho invisível em todo o site |
@@ -161,11 +161,12 @@ O site converte automaticamente para embed. Não use links `/export` — use sem
 
 ### Vídeos
 
-Cole a URL normal do YouTube ou Vimeo:
+Cole a URL normal do YouTube, do Vimeo ou do Google Drive (link de compartilhamento `/view`, com o arquivo aberto para “qualquer pessoa com o link”):
 
 ```yaml
 video: "https://www.youtube.com/watch?v=ID"
 video: "https://vimeo.com/123456789"
+video: "https://drive.google.com/file/d/ID/view?usp=drive_link"
 ```
 
 Para o vídeo aparecer depois do texto, adicione `videoLast: true`.

@@ -51,6 +51,21 @@
       "image": "/images/trabalhos/archigram-trajetoria.jpg"
     },
     {
+      "id": "arraial-klezmer",
+      "title": "Arraial Klezmer",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "ilustracao",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ],
+      "url": "https://www.instagram.com/p/DaThhp-Nq0K/",
+      "image": "/images/trabalhos/arraial-klezmer.jpg"
+    },
+    {
       "id": "bloco-klezmer-estadao",
       "title": "Bloco Klezmer presta homenagens às figuras judaicas do Bom Retiro",
       "type": "trabalho",
@@ -115,6 +130,32 @@
       "image": "/images/trabalhos/cidade-nao-visual-audioguia.jpg"
     },
     {
+      "id": "cine-debate-sabbath-queen",
+      "title": "Cine-debate Sabbath Queen",
+      "type": "trabalho",
+      "tags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ],
+      "url": "/trabalhos/cine-debate-sabbath-queen",
+      "image": "/images/trabalhos/cine-debate-sabbath-queen.jpg"
+    },
+    {
+      "id": "comunidades-judaicas-no-brasil",
+      "title": "Comunidades judaicas no Brasil",
+      "type": "trabalho",
+      "tags": [
+        "judaico",
+        "cultural",
+        "curadoria",
+        "diaspora"
+      ],
+      "url": "/trabalhos/comunidades-judaicas-no-brasil",
+      "image": "/images/trabalhos/comunidades-judaicas-no-brasil.jpg"
+    },
+    {
       "id": "construcao-falha-memoria-nacional",
       "title": "Construção falha de memória nacional: um caso Brasil-Israel",
       "type": "trabalho",
@@ -139,6 +180,31 @@
       "image": "/images/trabalhos/construction-national-identity.jpg"
     },
     {
+      "id": "construindo-comunidades-judaicas-inclusivas",
+      "title": "Construindo comunidades judaicas inclusivas",
+      "type": "trabalho",
+      "tags": [
+        "judaico"
+      ],
+      "url": "/trabalhos/construindo-comunidades-judaicas-inclusivas",
+      "image": "/images/trabalhos/construindo-comunidades-judaicas-inclusivas.jpg"
+    },
+    {
+      "id": "cortejo-klezmer-eruv-2026",
+      "title": "Cortejo Klezmer com Bloco Klezmer do Bom Retiro",
+      "type": "trabalho",
+      "tags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico",
+        "urbano",
+        "performance"
+      ],
+      "url": "https://www.instagram.com/p/DcRye_rOimx/",
+      "image": "/images/trabalhos/cortejo-klezmer-eruv-2026.jpg"
+    },
+    {
       "id": "culto-clara-almeida",
       "title": "Culto",
       "type": "trabalho",
@@ -151,6 +217,35 @@
       ],
       "url": "/trabalhos/culto-clara-almeida",
       "image": "/images/trabalhos/culto-clara-almeida.png"
+    },
+    {
+      "id": "descansar-caminhadas-performaticas",
+      "title": "Descansar – caminhadas performáticas",
+      "type": "trabalho",
+      "tags": [
+        "performance",
+        "curadoria",
+        "judaico",
+        "urbano",
+        "cultural",
+        "arte"
+      ],
+      "url": "/trabalhos/descansar-caminhadas-performaticas",
+      "image": "/images/trabalhos/perspectivas-contemporaneas-israel-judaismo.jpg"
+    },
+    {
+      "id": "dia-do-objeto-familia-haber",
+      "title": "Dia do Objeto: Família Haber",
+      "type": "trabalho",
+      "tags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ],
+      "url": "/trabalhos/dia-do-objeto-familia-haber",
+      "image": "/images/trabalhos/dia-do-objeto-familia-haber.jpg"
     },
     {
       "id": "dialogos-transversais-antissemitismo",
@@ -231,6 +326,38 @@
       "image": "/images/trabalhos/entrevista-gabriela-carrillo.jpg"
     },
     {
+      "id": "entrevista-ruth-sprung-tarasantchi",
+      "title": "Essas são as folhas que escrevi, porque tive medo que fosse esquecer, entrevista com Ruth Sprung Tarasantchi",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "artigo",
+        "traducao",
+        "judaico",
+        "arte",
+        "diaspora",
+        "editorial",
+        "cultural",
+        "ilustracao"
+      ],
+      "url": "/trabalhos/entrevista-ruth-sprung-tarasantchi",
+      "image": "/images/trabalhos/entrevista-ruth-sprung-tarasantchi.jpg"
+    },
+    {
+      "id": "eruv-2022-circulo-de-reflexao",
+      "title": "ERUV",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ],
+      "url": "https://www.instagram.com/p/ChdOT-BOSUm/?img_index=1",
+      "image": "/images/trabalhos/eruv-2022-circulo-de-reflexao.jpg"
+    },
+    {
       "id": "eruv-artificio-territorializacao",
       "title": "O eruv como artifício de territorialização das comunidades judaicas ortodoxas nas metrópoles",
       "type": "trabalho",
@@ -273,6 +400,19 @@
       ],
       "url": "/trabalhos/eruv-festa-bom-retiro",
       "image": "/images/trabalhos/eruv-festa-bom-retiro.jpg"
+    },
+    {
+      "id": "escrever-o-desejo",
+      "title": "Escrever o desejo",
+      "type": "trabalho",
+      "tags": [
+        "curadoria",
+        "literatura",
+        "cultural",
+        "arte"
+      ],
+      "url": "/trabalhos/escrever-o-desejo",
+      "image": "/images/trabalhos/escrever-o-desejo.jpg"
     },
     {
       "id": "estudio-transversal-espacos-respirar",
@@ -393,6 +533,24 @@
       "image": "/images/trabalhos/mencao-honrosa-mcb.png"
     },
     {
+      "id": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "title": "MESA #03, Fechar a rua para abrir a casa",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "performance",
+        "curadoria",
+        "artigo",
+        "diaspora",
+        "judaico",
+        "arte",
+        "urbano",
+        "cultural"
+      ],
+      "url": "/trabalhos/mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "image": "/images/trabalhos/mesa-03-fechar-a-rua-para-abrir-a-casa.jpg"
+    },
+    {
       "id": "mostra-cinema-sefaradi",
       "title": "I Mostra de Cinema Sefaradi",
       "type": "trabalho",
@@ -497,6 +655,20 @@
       "image": "/images/trabalhos/perez-macs.png"
     },
     {
+      "id": "perspectivas-contemporaneas-israel-judaismo",
+      "title": "Perspectivas contemporâneas sobre Israel, judaísmo e sociedade",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "editorial",
+        "literatura"
+      ],
+      "url": "/trabalhos/perspectivas-contemporaneas-israel-judaismo",
+      "image": "/images/trabalhos/perspectivas-contemporaneas-israel-judaismo.jpg"
+    },
+    {
       "id": "porcos-em-foco-2025",
       "title": "Porcos em Foco 2025",
       "type": "trabalho",
@@ -545,6 +717,23 @@
       ],
       "url": "https://www.instagram.com/p/DO50sCxDrlm/",
       "image": "/images/trabalhos/shana-tova-ibi.jpg"
+    },
+    {
+      "id": "sinagoga-dos-lituanos-folha",
+      "title": "Fechamento de mais uma sinagoga em São Paulo enfraquece a memória judaica",
+      "type": "trabalho",
+      "tags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "urbano",
+        "cultural",
+        "editorial",
+        "diaspora",
+        "arte"
+      ],
+      "url": "/trabalhos/sinagoga-dos-lituanos-folha",
+      "image": "/images/trabalhos/sinagoga-dos-lituanos-folha.png"
     },
     {
       "id": "solo-de-lucro",
@@ -635,6 +824,13 @@
     },
     {
       "source": "a-escrita-da-cidade-2026",
+      "target": "arraial-klezmer",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
       "target": "bloco-klezmer-estadao",
       "sharedTags": [
         "urbano"
@@ -688,8 +884,24 @@
     },
     {
       "source": "a-escrita-da-cidade-2026",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
       "target": "culto-clara-almeida",
       "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "urbano",
         "performance"
       ]
     },
@@ -736,6 +948,14 @@
         "artigo",
         "editorial",
         "urbano"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "artigo",
+        "editorial"
       ]
     },
     {
@@ -820,6 +1040,15 @@
     },
     {
       "source": "a-escrita-da-cidade-2026",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
       "target": "my-faith-is-my-master",
       "sharedTags": [
         "performance"
@@ -869,6 +1098,14 @@
     },
     {
       "source": "a-escrita-da-cidade-2026",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -879,6 +1116,15 @@
       "target": "sala-projetos",
       "sharedTags": [
         "performance"
+      ]
+    },
+    {
+      "source": "a-escrita-da-cidade-2026",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
       ]
     },
     {
@@ -939,6 +1185,14 @@
     },
     {
       "source": "a-senhora-da-casa-azul",
+      "target": "arraial-klezmer",
+      "sharedTags": [
+        "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
       "target": "bloco-klezmer-estadao",
       "sharedTags": [
         "cultural"
@@ -975,6 +1229,20 @@
     },
     {
       "source": "a-senhora-da-casa-azul",
+      "target": "cine-debate-sabbath-queen",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
       "target": "construcao-falha-memoria-nacional",
       "sharedTags": [
         "editorial"
@@ -989,7 +1257,28 @@
     },
     {
       "source": "a-senhora-da-casa-azul",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
       "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "dia-do-objeto-familia-haber",
       "sharedTags": [
         "cultural"
       ]
@@ -1032,6 +1321,22 @@
     },
     {
       "source": "a-senhora-da-casa-azul",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "ilustracao",
+        "cultural",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "editorial"
@@ -1050,6 +1355,14 @@
       "sharedTags": [
         "design",
         "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "literatura",
         "cultural"
       ]
     },
@@ -1124,6 +1437,13 @@
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
         "design"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural"
       ]
     },
     {
@@ -1180,6 +1500,14 @@
     },
     {
       "source": "a-senhora-da-casa-azul",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design",
@@ -1207,6 +1535,14 @@
       "sharedTags": [
         "design",
         "ilustracao"
+      ]
+    },
+    {
+      "source": "a-senhora-da-casa-azul",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "editorial"
       ]
     },
     {
@@ -1248,6 +1584,15 @@
     },
     {
       "source": "ajla",
+      "target": "arraial-klezmer",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
       "target": "bloco-klezmer-estadao",
       "sharedTags": [
         "judaico",
@@ -1281,6 +1626,22 @@
     },
     {
       "source": "ajla",
+      "target": "cine-debate-sabbath-queen",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
       "target": "construcao-falha-memoria-nacional",
       "sharedTags": [
         "diaspora"
@@ -1295,8 +1656,41 @@
     },
     {
       "source": "ajla",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
       "target": "culto-clara-almeida",
       "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
         "arte"
       ]
     },
@@ -1331,6 +1725,24 @@
     },
     {
       "source": "ajla",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "judaico",
@@ -1350,6 +1762,14 @@
       "target": "eruv-festa-bom-retiro",
       "sharedTags": [
         "diaspora"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "literatura",
+        "arte"
       ]
     },
     {
@@ -1401,6 +1821,15 @@
       "source": "ajla",
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
         "arte"
       ]
     },
@@ -1458,6 +1887,14 @@
     },
     {
       "source": "ajla",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico",
+        "literatura"
+      ]
+    },
+    {
+      "source": "ajla",
       "target": "sala-projetos",
       "sharedTags": [
         "arte"
@@ -1477,6 +1914,15 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "ajla",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
       ]
     },
     {
@@ -1556,6 +2002,14 @@
     },
     {
       "source": "archigram-trajetoria",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "artigo",
@@ -1610,6 +2064,13 @@
     },
     {
       "source": "archigram-trajetoria",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
       "target": "nas-estacoes-do-metro-plaquete",
       "sharedTags": [
         "editorial"
@@ -1640,8 +2101,24 @@
     },
     {
       "source": "archigram-trajetoria",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "archigram-trajetoria",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
         "editorial"
       ]
     },
@@ -1673,6 +2150,430 @@
       "target": "urbanizacao-artificial",
       "sharedTags": [
         "editorial"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "bloco-klezmer-estadao",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "bloco-klezmer-mosaico-tv",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "bloco-klezmer",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "cabeza-de-tierra-terremoto",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "cine-debate-sabbath-queen",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "performance",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "performance",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "performance",
+        "judaico",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "performance",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "performance",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "ilustracao",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "ilustracao",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "ilustracao",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "performance",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "performance",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "perez-macs",
+      "sharedTags": [
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "ilustracao",
+        "judaico"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance"
+      ]
+    },
+    {
+      "source": "arraial-klezmer",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "arte"
       ]
     },
     {
@@ -1712,6 +2613,24 @@
     },
     {
       "source": "bloco-klezmer-estadao",
+      "target": "cine-debate-sabbath-queen",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
       "target": "construcao-falha-memoria-nacional",
       "sharedTags": [
         "diaspora"
@@ -1726,9 +2645,47 @@
     },
     {
       "source": "bloco-klezmer-estadao",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
       "target": "culto-clara-almeida",
       "sharedTags": [
         "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
         "arte"
       ]
     },
@@ -1779,6 +2736,26 @@
     },
     {
       "source": "bloco-klezmer-estadao",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "judaico",
@@ -1802,6 +2779,14 @@
         "cultural",
         "urbano",
         "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural",
+        "arte"
       ]
     },
     {
@@ -1874,6 +2859,17 @@
     },
     {
       "source": "bloco-klezmer-estadao",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "cultural",
@@ -1929,6 +2925,13 @@
     },
     {
       "source": "bloco-klezmer-estadao",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
       "target": "sala-projetos",
       "sharedTags": [
         "cultural",
@@ -1950,6 +2953,17 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-estadao",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
       ]
     },
     {
@@ -2017,6 +3031,24 @@
     },
     {
       "source": "bloco-klezmer-mosaico-tv",
+      "target": "cine-debate-sabbath-queen",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
       "target": "construcao-falha-memoria-nacional",
       "sharedTags": [
         "diaspora"
@@ -2031,9 +3063,47 @@
     },
     {
       "source": "bloco-klezmer-mosaico-tv",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
       "target": "culto-clara-almeida",
       "sharedTags": [
         "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
         "arte"
       ]
     },
@@ -2084,6 +3154,26 @@
     },
     {
       "source": "bloco-klezmer-mosaico-tv",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "judaico",
@@ -2107,6 +3197,14 @@
         "cultural",
         "urbano",
         "diaspora"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural",
+        "arte"
       ]
     },
     {
@@ -2174,6 +3272,17 @@
       "source": "bloco-klezmer-mosaico-tv",
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
         "arte"
       ]
     },
@@ -2234,6 +3343,13 @@
     },
     {
       "source": "bloco-klezmer-mosaico-tv",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
       "target": "sala-projetos",
       "sharedTags": [
         "cultural",
@@ -2255,6 +3371,17 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer-mosaico-tv",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "arte"
       ]
     },
     {
@@ -2312,9 +3439,61 @@
     },
     {
       "source": "bloco-klezmer",
+      "target": "cine-debate-sabbath-queen",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
       "target": "culto-clara-almeida",
       "sharedTags": [
         "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "cultural",
+        "judaico",
         "arte"
       ]
     },
@@ -2366,6 +3545,24 @@
     },
     {
       "source": "bloco-klezmer",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "judaico",
@@ -2387,6 +3584,14 @@
         "design",
         "cultural",
         "urbano"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural",
+        "arte"
       ]
     },
     {
@@ -2457,6 +3662,16 @@
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
         "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
         "arte"
       ]
     },
@@ -2514,6 +3729,13 @@
     },
     {
       "source": "bloco-klezmer",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design"
@@ -2543,6 +3765,16 @@
       "sharedTags": [
         "design",
         "judaico"
+      ]
+    },
+    {
+      "source": "bloco-klezmer",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "judaico",
+        "urbano",
+        "arte"
       ]
     },
     {
@@ -2604,6 +3836,13 @@
       "target": "construction-national-identity",
       "sharedTags": [
         "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "arte"
       ]
     },
     {
@@ -2611,6 +3850,20 @@
       "target": "culto-clara-almeida",
       "sharedTags": [
         "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
         "arte"
       ]
     },
@@ -2653,6 +3906,24 @@
     },
     {
       "source": "cabeza-de-tierra-terremoto",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "ensaio",
+        "traducao",
+        "arte",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "editorial"
@@ -2664,6 +3935,13 @@
       "sharedTags": [
         "ensaio",
         "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "arte"
       ]
     },
     {
@@ -2719,6 +3997,14 @@
     },
     {
       "source": "cabeza-de-tierra-terremoto",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
       "target": "my-faith-is-my-master",
       "sharedTags": [
         "ensaio"
@@ -2764,6 +4050,14 @@
     },
     {
       "source": "cabeza-de-tierra-terremoto",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -2781,6 +4075,15 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "arte"
+      ]
+    },
+    {
+      "source": "cabeza-de-tierra-terremoto",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "arte",
+        "editorial"
       ]
     },
     {
@@ -2840,6 +4143,20 @@
     },
     {
       "source": "cidade-nao-visual-audioguia",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
       "target": "dialogos-transversais-antissemitismo",
       "sharedTags": [
         "editorial"
@@ -2858,6 +4175,14 @@
       "sharedTags": [
         "artigo",
         "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "artigo",
         "editorial"
       ]
     },
@@ -2929,6 +4254,14 @@
     },
     {
       "source": "cidade-nao-visual-audioguia",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
       "target": "nas-estacoes-do-metro-plaquete",
       "sharedTags": [
         "urbano",
@@ -2962,8 +4295,25 @@
     },
     {
       "source": "cidade-nao-visual-audioguia",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "cidade-nao-visual-audioguia",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "urbano",
         "editorial"
       ]
     },
@@ -3007,6 +4357,612 @@
       ]
     },
     {
+      "source": "cine-debate-sabbath-queen",
+      "target": "comunidades-judaicas-no-brasil",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "cine-debate-sabbath-queen",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "construcao-falha-memoria-nacional",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "construction-national-identity",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "construindo-comunidades-judaicas-inclusivas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "curadoria",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "cultural",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "cultural",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "curadoria",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "curadoria",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "curadoria",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "curadoria",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "curadoria"
+      ]
+    },
+    {
+      "source": "comunidades-judaicas-no-brasil",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria"
+      ]
+    },
+    {
       "source": "construcao-falha-memoria-nacional",
       "target": "construction-national-identity",
       "sharedTags": [
@@ -3017,6 +4973,20 @@
     },
     {
       "source": "construcao-falha-memoria-nacional",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
       "target": "dialogos-transversais-antissemitismo",
       "sharedTags": [
         "diaspora",
@@ -3029,6 +4999,22 @@
       "sharedTags": [
         "artigo",
         "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "diaspora"
       ]
     },
     {
@@ -3104,6 +5090,14 @@
     },
     {
       "source": "construcao-falha-memoria-nacional",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "diaspora"
@@ -3150,6 +5144,14 @@
     },
     {
       "source": "construcao-falha-memoria-nacional",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -3160,6 +5162,15 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "diaspora"
+      ]
+    },
+    {
+      "source": "construcao-falha-memoria-nacional",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -3195,6 +5206,20 @@
     },
     {
       "source": "construction-national-identity",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
       "target": "dialogos-transversais-antissemitismo",
       "sharedTags": [
         "diaspora",
@@ -3207,6 +5232,22 @@
       "sharedTags": [
         "artigo",
         "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "diaspora"
       ]
     },
     {
@@ -3282,6 +5323,14 @@
     },
     {
       "source": "construction-national-identity",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "diaspora"
@@ -3328,6 +5377,14 @@
     },
     {
       "source": "construction-national-identity",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -3338,6 +5395,15 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "diaspora"
+      ]
+    },
+    {
+      "source": "construction-national-identity",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -3369,6 +5435,526 @@
       "target": "urbanizacao-artificial",
       "sharedTags": [
         "editorial"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "cortejo-klezmer-eruv-2026",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "construindo-comunidades-judaicas-inclusivas",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "culto-clara-almeida",
+      "sharedTags": [
+        "cultural",
+        "arte",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "cultural",
+        "arte",
+        "judaico",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "diaspora",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "arte",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "cultural",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "cultural",
+        "arte",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "arte",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "diaspora",
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "diaspora",
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "diaspora",
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "diaspora",
+        "arte",
+        "judaico",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "arte",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "judaico",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "diaspora",
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural",
+        "arte",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "arte",
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "arte",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "diaspora",
+        "judaico"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "cortejo-klezmer-eruv-2026",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "arte",
+        "urbano",
+        "performance"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "descansar-caminhadas-performaticas",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
       ]
     },
     {
@@ -3416,6 +6002,24 @@
     },
     {
       "source": "culto-clara-almeida",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "ensaio",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "ensaio",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
       "target": "eruv-espaco-comum",
       "sharedTags": [
         "ensaio"
@@ -3426,6 +6030,15 @@
       "target": "eruv-festa-bom-retiro",
       "sharedTags": [
         "cultural"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
       ]
     },
     {
@@ -3471,6 +6084,17 @@
       "sharedTags": [
         "ensaio",
         "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "curadoria",
+        "cultural",
         "arte"
       ]
     },
@@ -3526,6 +6150,13 @@
     },
     {
       "source": "culto-clara-almeida",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
       "target": "sala-projetos",
       "sharedTags": [
         "performance",
@@ -3538,6 +6169,15 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "culto-clara-almeida",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
         "cultural",
         "arte"
       ]
@@ -3578,6 +6218,611 @@
       ]
     },
     {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "dia-do-objeto-familia-haber",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "performance",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "entrevista-gabriela-carrillo",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "urbano",
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "performance",
+        "judaico",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "judaico",
+        "urbano",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "urbano",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "performance",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "descansar-caminhadas-performaticas",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "dialogos-transversais-antissemitismo",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "domingo-dos-filhos-de-deus",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "encontro-em-performance",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "encosta-mas-nao-atravessa",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "entre-transito-e-transitorios",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "dia-do-objeto-familia-haber",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
       "source": "dialogos-transversais-antissemitismo",
       "target": "entre-transito-e-transitorios",
       "sharedTags": [
@@ -3590,6 +6835,25 @@
       "target": "entrevista-gabriela-carrillo",
       "sharedTags": [
         "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
       ]
     },
     {
@@ -3695,6 +6959,15 @@
     },
     {
       "source": "dialogos-transversais-antissemitismo",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "judaico",
@@ -3753,6 +7026,15 @@
     },
     {
       "source": "dialogos-transversais-antissemitismo",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial",
@@ -3781,6 +7063,16 @@
         "colagem",
         "judaico",
         "design"
+      ]
+    },
+    {
+      "source": "dialogos-transversais-antissemitismo",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -3851,6 +7143,28 @@
     },
     {
       "source": "domingo-dos-filhos-de-deus",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
       "target": "lugar-como-desprogramar-sinagoga",
       "sharedTags": [
         "performance",
@@ -3862,6 +7176,15 @@
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
         "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "performance",
+        "curadoria",
         "arte"
       ]
     },
@@ -3916,6 +7239,13 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "domingo-dos-filhos-de-deus",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
         "arte"
       ]
     },
@@ -3969,8 +7299,30 @@
     },
     {
       "source": "encontro-em-performance",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
       "target": "eruv-festa-bom-retiro",
       "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
         "cultural"
       ]
     },
@@ -4014,6 +7366,15 @@
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
         "performance"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "curadoria",
+        "performance",
+        "cultural"
       ]
     },
     {
@@ -4073,6 +7434,13 @@
     },
     {
       "source": "encontro-em-performance",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "encontro-em-performance",
       "target": "solo-de-lucro",
       "sharedTags": [
         "performance"
@@ -4111,9 +7479,34 @@
     },
     {
       "source": "encosta-mas-nao-atravessa",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
       "target": "eruv-festa-bom-retiro",
       "sharedTags": [
         "cultural"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
       ]
     },
     {
@@ -4157,6 +7550,16 @@
       "target": "mencao-honrosa-mcb",
       "sharedTags": [
         "performance",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "cultural",
         "arte"
       ]
     },
@@ -4214,6 +7617,14 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "encosta-mas-nao-atravessa",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
         "cultural",
         "arte"
       ]
@@ -4260,6 +7671,20 @@
     },
     {
       "source": "entre-transito-e-transitorios",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
       "target": "eruv-artificio-territorializacao",
       "sharedTags": [
         "urbano"
@@ -4279,6 +7704,13 @@
         "design",
         "colagem",
         "urbano"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "arte"
       ]
     },
     {
@@ -4340,6 +7772,15 @@
         "performance",
         "design",
         "colagem",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "performance",
+        "urbano",
         "arte"
       ]
     },
@@ -4421,6 +7862,14 @@
     },
     {
       "source": "entre-transito-e-transitorios",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "urbano",
+        "arte"
+      ]
+    },
+    {
+      "source": "entre-transito-e-transitorios",
       "target": "solo-de-lucro",
       "sharedTags": [
         "performance",
@@ -4453,6 +7902,15 @@
         "design",
         "urbano",
         "arte"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "entrevista-ruth-sprung-tarasantchi",
+      "sharedTags": [
+        "artigo",
+        "traducao",
+        "editorial"
       ]
     },
     {
@@ -4523,6 +7981,14 @@
     },
     {
       "source": "entrevista-gabriela-carrillo",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "urbano"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
       "target": "nas-estacoes-do-metro-plaquete",
       "sharedTags": [
         "urbano",
@@ -4556,8 +8022,25 @@
     },
     {
       "source": "entrevista-gabriela-carrillo",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-gabriela-carrillo",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "urbano",
         "editorial"
       ]
     },
@@ -4598,6 +8081,550 @@
       "target": "vender-barcos-anhanagabau",
       "sharedTags": [
         "urbano"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "eruv-2022-circulo-de-reflexao",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora",
+        "cultural",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "estudio-transversal-espacos-respirar",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "editorial",
+        "cultural",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "exercicio-unico-diadema",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "editorial",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "arte",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "perez-macs",
+      "sharedTags": [
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico",
+        "ilustracao"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "arte",
+        "diaspora",
+        "editorial",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "arte",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "diaspora",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "arte",
+        "editorial",
+        "cultural"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
+      "source": "entrevista-ruth-sprung-tarasantchi",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "eruv-artificio-territorializacao",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "eruv-espaco-comum",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "eruv-festa-bom-retiro",
+      "sharedTags": [
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "investigacoes-eruv",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "arte",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "judaico"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "arte",
+        "diaspora",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "arte"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "eruv-2022-circulo-de-reflexao",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "arte"
       ]
     },
     {
@@ -4679,6 +8706,16 @@
     },
     {
       "source": "eruv-artificio-territorializacao",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "judaico",
@@ -4731,6 +8768,15 @@
     },
     {
       "source": "eruv-artificio-territorializacao",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -4749,6 +8795,17 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "eruv-artificio-territorializacao",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -4868,6 +8925,17 @@
     },
     {
       "source": "eruv-espaco-comum",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "judaico",
@@ -4924,6 +8992,16 @@
     },
     {
       "source": "eruv-espaco-comum",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -4942,6 +9020,18 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "eruv-espaco-comum",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -4985,6 +9075,13 @@
       "target": "vender-barcos-anhanagabau",
       "sharedTags": [
         "urbano"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
+      "target": "escrever-o-desejo",
+      "sharedTags": [
+        "cultural"
       ]
     },
     {
@@ -5061,6 +9158,15 @@
     },
     {
       "source": "eruv-festa-bom-retiro",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "cultural",
@@ -5146,6 +9252,15 @@
     },
     {
       "source": "eruv-festa-bom-retiro",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "urbano",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "eruv-festa-bom-retiro",
       "target": "solo-de-lucro",
       "sharedTags": [
         "urbano"
@@ -5183,6 +9298,154 @@
       ]
     },
     {
+      "source": "escrever-o-desejo",
+      "target": "eugenio-peiropolis",
+      "sharedTags": [
+        "literatura",
+        "cultural"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "figo-de-agosto",
+      "sharedTags": [
+        "literatura",
+        "cultural"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "inclusao-lgbt-espacos-judaicos",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "kwakou-press",
+      "sharedTags": [
+        "literatura",
+        "cultural"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "lugar-como-desprogramar-sinagoga",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "mencao-honrosa-mcb",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "curadoria",
+        "cultural"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "escrever-o-desejo",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
       "source": "estudio-transversal-espacos-respirar",
       "target": "eugenio-peiropolis",
       "sharedTags": [
@@ -5212,6 +9475,14 @@
       "target": "kwakou-press",
       "sharedTags": [
         "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "urbano"
       ]
     },
     {
@@ -5249,9 +9520,26 @@
     },
     {
       "source": "estudio-transversal-espacos-respirar",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
+      ]
+    },
+    {
+      "source": "estudio-transversal-espacos-respirar",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "editorial",
+        "urbano"
       ]
     },
     {
@@ -5351,6 +9639,13 @@
     },
     {
       "source": "eugenio-peiropolis",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "cultural"
@@ -5403,6 +9698,14 @@
     },
     {
       "source": "eugenio-peiropolis",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design",
@@ -5431,6 +9734,14 @@
         "design",
         "ilustracao",
         "colagem"
+      ]
+    },
+    {
+      "source": "eugenio-peiropolis",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "editorial"
       ]
     },
     {
@@ -5489,6 +9800,14 @@
     },
     {
       "source": "exercicio-unico-diadema",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "urbano"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
       "target": "nas-estacoes-do-metro-plaquete",
       "sharedTags": [
         "urbano",
@@ -5522,8 +9841,25 @@
     },
     {
       "source": "exercicio-unico-diadema",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "exercicio-unico-diadema",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "urbano",
         "editorial"
       ]
     },
@@ -5598,6 +9934,13 @@
     },
     {
       "source": "figo-de-agosto",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "cultural"
@@ -5634,6 +9977,13 @@
     },
     {
       "source": "figo-de-agosto",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "literatura"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design"
@@ -5660,6 +10010,13 @@
       "sharedTags": [
         "design",
         "ilustracao"
+      ]
+    },
+    {
+      "source": "figo-de-agosto",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural"
       ]
     },
     {
@@ -5700,6 +10057,14 @@
     },
     {
       "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "judaico",
@@ -5717,6 +10082,13 @@
     {
       "source": "inclusao-lgbt-espacos-judaicos",
       "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
       "sharedTags": [
         "judaico"
       ]
@@ -5745,6 +10117,14 @@
     },
     {
       "source": "inclusao-lgbt-espacos-judaicos",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "inclusao-lgbt-espacos-judaicos",
       "target": "to-recognize-oneself-as-jewish",
       "sharedTags": [
         "judaico"
@@ -5769,6 +10149,16 @@
       "target": "lugar-como-desprogramar-sinagoga",
       "sharedTags": [
         "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
         "diaspora"
       ]
     },
@@ -5826,6 +10216,15 @@
     },
     {
       "source": "investigacoes-eruv",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -5844,6 +10243,17 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "investigacoes-eruv",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -5903,6 +10313,13 @@
     },
     {
       "source": "kwakou-press",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "cultural"
+      ]
+    },
+    {
+      "source": "kwakou-press",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "cultural"
@@ -5954,6 +10371,14 @@
     },
     {
       "source": "kwakou-press",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "editorial",
+        "literatura"
+      ]
+    },
+    {
+      "source": "kwakou-press",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design",
@@ -5980,6 +10405,14 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "design"
+      ]
+    },
+    {
+      "source": "kwakou-press",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "editorial",
+        "cultural"
       ]
     },
     {
@@ -6031,6 +10464,17 @@
     },
     {
       "source": "lugar-como-desprogramar-sinagoga",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "judaico",
+        "diaspora",
+        "arte"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
       "target": "mostra-cinema-sefaradi",
       "sharedTags": [
         "judaico",
@@ -6096,6 +10540,14 @@
     },
     {
       "source": "lugar-como-desprogramar-sinagoga",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "judaico"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design"
@@ -6125,6 +10577,16 @@
       "sharedTags": [
         "design",
         "judaico"
+      ]
+    },
+    {
+      "source": "lugar-como-desprogramar-sinagoga",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "arte"
       ]
     },
     {
@@ -6166,6 +10628,15 @@
       "sharedTags": [
         "performance",
         "design",
+        "arte"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "sharedTags": [
+        "ensaio",
+        "performance",
         "arte"
       ]
     },
@@ -6217,6 +10688,13 @@
     },
     {
       "source": "mencao-honrosa-mcb",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "design"
@@ -6244,6 +10722,14 @@
       "sharedTags": [
         "design",
         "colagem"
+      ]
+    },
+    {
+      "source": "mencao-honrosa-mcb",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "arte"
       ]
     },
     {
@@ -6282,6 +10768,171 @@
       ]
     },
     {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "mostra-cinema-sefaradi",
+      "sharedTags": [
+        "curadoria",
+        "diaspora",
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "my-faith-is-my-master",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "curadoria",
+        "diaspora",
+        "judaico",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "nas-estacoes-do-metro-plaquete",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "nas-estacoes-do-metro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "noticias-urgentes",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "o-sionismo-nos-espacos-judaicos",
+      "sharedTags": [
+        "artigo",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "outros-corpos-espacos-comunitarios",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "diaspora",
+        "judaico",
+        "urbano"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "sala-projetos",
+      "sharedTags": [
+        "performance",
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "curadoria",
+        "diaspora",
+        "judaico",
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "diaspora",
+        "judaico",
+        "arte",
+        "urbano",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "artigo",
+        "arte",
+        "urbano"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "judaico"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "curadoria",
+        "arte",
+        "cultural"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "performance",
+        "urbano"
+      ]
+    },
+    {
+      "source": "mesa-03-fechar-a-rua-para-abrir-a-casa",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "performance",
+        "curadoria",
+        "arte",
+        "urbano"
+      ]
+    },
+    {
       "source": "mostra-cinema-sefaradi",
       "target": "my-faith-is-my-master",
       "sharedTags": [
@@ -6315,6 +10966,13 @@
     },
     {
       "source": "mostra-cinema-sefaradi",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
       "target": "sala-projetos",
       "sharedTags": [
         "cultural"
@@ -6335,6 +10993,15 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "mostra-cinema-sefaradi",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico",
+        "diaspora",
+        "cultural"
       ]
     },
     {
@@ -6402,6 +11069,14 @@
     },
     {
       "source": "my-faith-is-my-master",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "judaico"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
       "target": "sala-projetos",
       "sharedTags": [
         "performance",
@@ -6423,6 +11098,16 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "my-faith-is-my-master",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "judaico",
+        "diaspora",
+        "cultural"
       ]
     },
     {
@@ -6501,6 +11186,15 @@
     },
     {
       "source": "nas-estacoes-do-metro-plaquete",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -6511,6 +11205,15 @@
       "target": "sala-projetos",
       "sharedTags": [
         "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro-plaquete",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
       ]
     },
     {
@@ -6580,6 +11283,15 @@
     },
     {
       "source": "nas-estacoes-do-metro",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "ensaio",
+        "literatura",
+        "editorial"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -6590,6 +11302,15 @@
       "target": "sala-projetos",
       "sharedTags": [
         "performance"
+      ]
+    },
+    {
+      "source": "nas-estacoes-do-metro",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
       ]
     },
     {
@@ -6647,6 +11368,13 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "curadoria",
+        "arte"
+      ]
+    },
+    {
+      "source": "noticias-urgentes",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
         "arte"
       ]
     },
@@ -6693,6 +11421,14 @@
     },
     {
       "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -6703,6 +11439,15 @@
       "target": "seminario-museus-judaicos-2025",
       "sharedTags": [
         "diaspora"
+      ]
+    },
+    {
+      "source": "o-sionismo-nos-espacos-judaicos",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -6738,6 +11483,16 @@
     },
     {
       "source": "outros-corpos-espacos-comunitarios",
+      "target": "perspectivas-contemporaneas-israel-judaismo",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
       "target": "porcos-em-foco-2025",
       "sharedTags": [
         "editorial"
@@ -6756,6 +11511,18 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "judaico"
+      ]
+    },
+    {
+      "source": "outros-corpos-espacos-comunitarios",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "artigo",
+        "ensaio",
+        "judaico",
+        "urbano",
+        "diaspora",
+        "editorial"
       ]
     },
     {
@@ -6838,6 +11605,70 @@
       ]
     },
     {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "porcos-em-foco-2025",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "seminario-museus-judaicos-2025",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "shana-tova-ibi",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "editorial"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "editorial"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "editorial"
+      ]
+    },
+    {
+      "source": "perspectivas-contemporaneas-israel-judaismo",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "editorial"
+      ]
+    },
+    {
       "source": "porcos-em-foco-2025",
       "target": "sala-projetos",
       "sharedTags": [
@@ -6849,6 +11680,13 @@
       "target": "shana-tova-ibi",
       "sharedTags": [
         "design"
+      ]
+    },
+    {
+      "source": "porcos-em-foco-2025",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "editorial"
       ]
     },
     {
@@ -6904,6 +11742,14 @@
     },
     {
       "source": "sala-projetos",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "arte"
+      ]
+    },
+    {
+      "source": "sala-projetos",
       "target": "solo-de-lucro",
       "sharedTags": [
         "performance",
@@ -6944,6 +11790,16 @@
     },
     {
       "source": "seminario-museus-judaicos-2025",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "cultural",
+        "arte",
+        "judaico",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "seminario-museus-judaicos-2025",
       "target": "solo-de-lucro",
       "sharedTags": [
         "arte"
@@ -6976,6 +11832,13 @@
     },
     {
       "source": "shana-tova-ibi",
+      "target": "sinagoga-dos-lituanos-folha",
+      "sharedTags": [
+        "judaico"
+      ]
+    },
+    {
+      "source": "shana-tova-ibi",
       "target": "to-recognize-oneself-as-jewish",
       "sharedTags": [
         "judaico"
@@ -7000,6 +11863,53 @@
       "target": "vender-barcos-anhanagabau",
       "sharedTags": [
         "design"
+      ]
+    },
+    {
+      "source": "sinagoga-dos-lituanos-folha",
+      "target": "solo-de-lucro",
+      "sharedTags": [
+        "ensaio",
+        "artigo",
+        "urbano",
+        "editorial",
+        "arte"
+      ]
+    },
+    {
+      "source": "sinagoga-dos-lituanos-folha",
+      "target": "to-recognize-oneself-as-jewish",
+      "sharedTags": [
+        "artigo",
+        "judaico",
+        "editorial",
+        "diaspora"
+      ]
+    },
+    {
+      "source": "sinagoga-dos-lituanos-folha",
+      "target": "todo-mundo-book-fair",
+      "sharedTags": [
+        "cultural",
+        "editorial",
+        "arte"
+      ]
+    },
+    {
+      "source": "sinagoga-dos-lituanos-folha",
+      "target": "urbanizacao-artificial",
+      "sharedTags": [
+        "ensaio",
+        "urbano",
+        "editorial"
+      ]
+    },
+    {
+      "source": "sinagoga-dos-lituanos-folha",
+      "target": "vender-barcos-anhanagabau",
+      "sharedTags": [
+        "urbano",
+        "arte"
       ]
     },
     {
