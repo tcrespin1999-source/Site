@@ -5,7 +5,7 @@ year: 2026
 type: editorial
 tags: [ensaio, artigo, judaico, editorial, literatura]
 venue: "Instituto Brasil-Israel"
-externalUrl: "https://www.edupe.upe.br/index.php/perspectivas-contemporaneas-sobre-israel-judaismo-e-sociedade-autorizado?highlight=WyJqdWRhXHUwMGVkc21vIl0="
+externalUrl: "https://www.edupe.upe.br/index.php/perspectivas-contemporaneas-sobre-israel-judaismo-e-sociedade"
 pdf: "https://drive.google.com/file/d/1XpIwACbS7TMpJ_2Zzmg3MvPZpkO2sFm9/view?usp=drive_link"
 video: "https://www.youtube.com/watch?v=46GxqQzww2U"
 videoLast: true

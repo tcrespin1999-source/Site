@@ -7,11 +7,13 @@ tags: [ensaio, performance, curadoria, artigo, diaspora, judaico, arte, urbano, 
 venue: "AJLA + Sala Projetos"
 externalUrl: "https://aj-la.org/eruv-pt/"
 image: "/images/trabalhos/mesa-03-fechar-a-rua-para-abrir-a-casa.jpg"
+video: "https://www.youtube.com/watch?v=ZM0jFRCgKOk"
+videoLast: true
 draft: false
 ---
 
-Quando cursava o quinto ano de arquitetura na Escola da Cidade, em São Paulo, comecei a me perguntar como incorporar minha identidade judaica ao que eu criava. Foi nessa faculdade, com seu forte enfoque em história da arte, que descobri o eruv. Desde então — já faz seis ou sete anos — não parei de estudá-lo: como prática de interpretação do espaço urbano, como tema do meu mestrado e também como uma festa de bairro. Contei um pouco sobre isso na terceira edição da MESA, o espaço de aprendizagem colaborativa da AJLA.
+O *eruv* é um fio de diâmetro milimétrico, transparente, invisível. Uma fronteira física e imaginária, concreta e abstrata, poética e literária. Em MESA #03, Fechar a rua para abrir a casa, é apresentado como a estratégia simbólica do *eruv* pode ser lida como uma prática de interpretação do espaço urbano, e como uma festa de bairro.
 
-*MESA* é um espaço de aprendizagem colaborativa e intercâmbio para artistas e profissionais da cultura latino-americanos com vínculo com identidade judaica.
+MESA é um espaço de aprendizagem colaborativa e intercâmbio para artistas e profissionais da cultura latino-americanos com vínculo com identidade judaica.
 
 Organização: **AJLA** e **Sala Projetos**

@@ -57,3 +57,5 @@ O desafio é reinserir esse patrimônio na dinâmica da cidade e promover interv
 É necessário dar uma nova vida às dinâmicas judaicas no território. Afinal, ao desaparecer, uma sinagoga leva consigo uma página da própria história comunitária.
 
 Autoras: **Myriam Rosenblit Szwarcbart** e **Tamara Crespin** · Assessoria de Imprensa: **Denis Dana** · Fotografias: **Rafaela Araújo**, **Adriano Vizoni** e **Rubens Cavallari**
+
+[Ver na edição impressa (Acervo Folha) ↗](https://acervo.folha.uol.com.br/digital/leitor.do?numero=51515&maxTouch=0)
